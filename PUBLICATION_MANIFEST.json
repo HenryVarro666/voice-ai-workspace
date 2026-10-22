@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-22",
+  "scope": "public source and reviewed metadata; no weights/credentials/raw media",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "65de2b901531997b28c6f034c8585906465a07b851b296b7b5c154a86e1d86ff",
+      "bytes": 417
+    },
+    {
+      "path": "DUPLEXLAB_ROADMAP.md",
+      "sha256": "6e043833ef0ca2a4e3e5528bb12aee3a5b0aaf51da125c1db062b02eec2f1f69",
+      "bytes": 871
+    },
+    {
+      "path": "EVOLUTION.md",
+      "sha256": "4d03dd242bea2a0d0b68566202c0310edff2809464d5377f8ec47f4eee9e0f7d",
+      "bytes": 197753
+    },
+    {
+      "path": "EXPERIMENTS.md",
+      "sha256": "0c31f1dba1a4b346764e19b20c7dabaf6a824942abb0a7b84ae277a63336e2e6",
+      "bytes": 2643
+    },
+    {
+      "path": "MAINTAINING.md",
+      "sha256": "a028b296a331c5c603b43bea207e3ee308de2e3984a8c3611a600bfc8f6f7ef2",
+      "bytes": 1354
+    },
+    {
+      "path": "PROJECT_STATUS.md",
+      "sha256": "b0b68c086e629ad3f01a4e5c35da3936e14250c92f2a3430d349e7575c8acf2f",
+      "bytes": 1514
+    },
+    {
+      "path": "PUBLICATION.md",
+      "sha256": "c97a8de10acd985eeef6ba9a16c8ba385430066e662f0cd4b31fe96c7978d9b0",
+      "bytes": 2214
+    },
+    {
+      "path": "PUBLICATION_AUDIT.json",
+      "sha256": "503ee10990198ee68509039e4e5170c0ede58a0c54ee3eb6f24136a46e631a88",
+      "bytes": 1402
+    },
+    {
+      "path": "README.md",
+      "sha256": "0ccd1f085e33ebab8475d6ab0f05970b384d6bca5fe7ea2264f38d3fcc12c59e",
+      "bytes": 5816
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "b3b4c427a4e54a26093fc7616eb1644d0bfc6cb57d3e608cd02edbdd6f569cd0",
+      "bytes": 4947
+    },
+    {
+      "path": "ROADMAP.md",
+      "sha256": "9e9de0317090b65a7c8014049f567e8cb68d9002f057062a2a40912114fa4eac",
+      "bytes": 1428
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-20-duplexlab-implementation.md",
+      "sha256": "012d97b90d6a8bca0c85a00b7dbc729cc60cb62c1cb25ec19b0e65e9a92e3c13",
+      "bytes": 22117
+    },
+    {
+      "path": "docs/superpowers/specs/2026-10-20-duplexlab-design.md",
+      "sha256": "afdf1215331c3384c53139e1babe1d8f0aae043c4267513fb806bcc3c7a9262d",
+      "bytes": 18459
+    },
+    {
+      "path": "docs/superpowers/specs/2026-10-20-native-duplex-scheduling-proposal.md",
+      "sha256": "19e275b7d29c5bc4c5a1767019388cb2d491da4c97d24de1405937b79faeb390",
+      "bytes": 19099
+    },
+    {
+      "path": "reports/Avatar \u53e3\u578b\u751f\u6210 \u6280\u672f\u8def\u7ebf \u5b9e\u9a8c\u6307\u5357.md",
+      "sha256": "03ea9c711da90dacc8505a04d070c844365d2f5ad1119c7cef57c875152234ea",
+      "bytes": 32995
+    },
+    {
+      "path": "reports/Avatar \u5b8c\u6574\u8868\u60c5 \u9009\u578b \u6269\u5c55\u8def\u7ebf.md",
+      "sha256": "b3dad3f5581fd797f18839b91efb4f80d447de049c2ed146190f8914bea1f3d3",
+      "bytes": 23912
+    },
+    {
+      "path": "research_notes/Avatar \u53e3\u578b\u751f\u6210 \u6280\u672f\u8def\u7ebf \u5b9e\u9a8c\u6307\u5357/sources.md",
+      "sha256": "6a53c909275e5e06f610eb827172fc288619f2a46f95cebb1bc45209ad1dd74f",
+      "bytes": 4084
+    },
+    {
+      "path": "research_notes/Avatar \u5b8c\u6574\u8868\u60c5 \u9009\u578b \u6269\u5c55\u8def\u7ebf/code-map.md",
+      "sha256": "9fa1de96f7adf681ac2bfdabe74ab783d2efd7b836e903043c7c9f58c68b784b",
+      "bytes": 4674
+    },
+    {
+      "path": "research_notes/Avatar \u5b8c\u6574\u8868\u60c5 \u9009\u578b \u6269\u5c55\u8def\u7ebf/source-lock.json",
+      "sha256": "c32fed7064563bcb54a6b890ea9d5085396f1519e0676f20e4aa87ff5bfa4645",
+      "bytes": 12392
+    },
+    {
+      "path": "research_notes/Avatar \u5b8c\u6574\u8868\u60c5 \u9009\u578b \u6269\u5c55\u8def\u7ebf/sources.md",
+      "sha256": "3565c4f910ee4375ba597f809d9a5c7a326bb02a4a38d734893bfb2d7f27ccd7",
+      "bytes": 5860
+    },
+    {
+      "path": "research_notes/Avatar \u5b8c\u6574\u8868\u60c5 \u9009\u578b \u6269\u5c55\u8def\u7ebf/verification.json",
+      "sha256": "4f910ae82b9d380b6a3bfd308a99aafc117358c24ce31869456cc8fae360036e",
+      "bytes": 492
+    }
+  ]
+}

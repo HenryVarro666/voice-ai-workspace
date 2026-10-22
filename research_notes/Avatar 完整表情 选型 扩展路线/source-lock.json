@@ -1,0 +1,273 @@
+{
+  "checked_at_utc": "2026-10-20T20:38:14.345839+00:00",
+  "method": "Read-only official API/source/model-card review; no inference, new weights, SSH or deployment.",
+  "repositories": [
+    {
+      "full_name": "meituan-longcat/LongCat-Video",
+      "default_branch": "main",
+      "archived": false,
+      "disabled": false,
+      "created_at": "2025-10-25T06:49:49Z",
+      "updated_at": "2026-10-20T20:31:42Z",
+      "pushed_at": "2026-05-27T02:51:41Z",
+      "open_issues_count": 83,
+      "stargazers_count": 9217,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "commit": {
+        "sha": "6b3f4b8582a8bc3f20f795735f5383716c4ba794",
+        "date": "2026-05-27T02:51:41Z",
+        "url": "https://github.com/meituan-longcat/LongCat-Video/commit/6b3f4b8582a8bc3f20f795735f5383716c4ba794"
+      },
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/meituan-longcat/LongCat-Video/blob/6b3f4b8582a8bc3f20f795735f5383716c4ba794/README.md",
+          "sha256": "195f2c382d1e55ff734f26ce22946280fa892aba5d4c38ca616256f442c449d4"
+        },
+        {
+          "path": "requirements_avatar.txt",
+          "url": "https://github.com/meituan-longcat/LongCat-Video/blob/6b3f4b8582a8bc3f20f795735f5383716c4ba794/requirements_avatar.txt",
+          "sha256": "7a3c2cb4df189a9eb6397918f763394f2790bdb3dff72c3f0358b10dff372608"
+        },
+        {
+          "path": "requirements.txt",
+          "url": "https://github.com/meituan-longcat/LongCat-Video/blob/6b3f4b8582a8bc3f20f795735f5383716c4ba794/requirements.txt",
+          "sha256": "b46e575c0b6253accab168718ad80d084f4ad6cef3a326f72be540e63e5cff3f"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/meituan-longcat/LongCat-Video/blob/6b3f4b8582a8bc3f20f795735f5383716c4ba794/LICENSE",
+          "sha256": "dfdbf36556065706ef8b26e5866acb85209b6465af0395578d38b63470e0bed0"
+        },
+        {
+          "path": "run_demo_avatar_single_audio_to_video.py",
+          "url": "https://github.com/meituan-longcat/LongCat-Video/blob/6b3f4b8582a8bc3f20f795735f5383716c4ba794/run_demo_avatar_single_audio_to_video.py",
+          "sha256": "3d1125a8f9d21d2412cae0d9cc434bd8b4a497fd757d644b1ecca1fea1ae8207"
+        },
+        {
+          "path": "longcat_video/audio_process/torch_utils.py",
+          "url": "https://github.com/meituan-longcat/LongCat-Video/blob/6b3f4b8582a8bc3f20f795735f5383716c4ba794/longcat_video/audio_process/torch_utils.py",
+          "sha256": "44515bc163db249321efcf61308c5e399e59ccd4db80b9111a5dd26605ccb2a8"
+        },
+        {
+          "path": "run_streamlit.py",
+          "url": "https://github.com/meituan-longcat/LongCat-Video/blob/6b3f4b8582a8bc3f20f795735f5383716c4ba794/run_streamlit.py",
+          "sha256": "0bcb12e3d2f18ecacd3a3b88bcd2baca0846d0f0a07eb331b8c82bcdc0054fe5"
+        },
+        {
+          "path": "assets/avatar/single_example_1.json",
+          "url": "https://github.com/meituan-longcat/LongCat-Video/blob/6b3f4b8582a8bc3f20f795735f5383716c4ba794/assets/avatar/single_example_1.json",
+          "sha256": "1e485aa223cb1452d5a16bdc4162129e829eca46d2034110a9538ecbc801d15e"
+        }
+      ]
+    },
+    {
+      "full_name": "Omni-Avatar/OmniAvatar",
+      "default_branch": "main",
+      "archived": false,
+      "disabled": false,
+      "created_at": "2025-06-17T13:06:06Z",
+      "updated_at": "2026-10-20T20:32:03Z",
+      "pushed_at": "2025-08-06T15:17:03Z",
+      "open_issues_count": 48,
+      "stargazers_count": 1862,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "commit": {
+        "sha": "1536bf31abaec74364fb7d5883470d5b23ffa7f8",
+        "date": "2025-08-06T15:17:03Z",
+        "url": "https://github.com/Omni-Avatar/OmniAvatar/commit/1536bf31abaec74364fb7d5883470d5b23ffa7f8"
+      },
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/Omni-Avatar/OmniAvatar/blob/1536bf31abaec74364fb7d5883470d5b23ffa7f8/README.md",
+          "sha256": "ec5d92c012d6bdf77ce8cb727d72cf486572a340eb5896eef376c941aa4cfbd2"
+        },
+        {
+          "path": "requirements.txt",
+          "url": "https://github.com/Omni-Avatar/OmniAvatar/blob/1536bf31abaec74364fb7d5883470d5b23ffa7f8/requirements.txt",
+          "sha256": "4673221d2bdd80533c27a2a931f9bd7ab4fd9b49a9fa8e7c00fc52bd78400c99"
+        },
+        {
+          "path": "LICENSE.txt",
+          "url": "https://github.com/Omni-Avatar/OmniAvatar/blob/1536bf31abaec74364fb7d5883470d5b23ffa7f8/LICENSE.txt",
+          "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1"
+        },
+        {
+          "path": "scripts/inference.py",
+          "url": "https://github.com/Omni-Avatar/OmniAvatar/blob/1536bf31abaec74364fb7d5883470d5b23ffa7f8/scripts/inference.py",
+          "sha256": "01696b2bd3ee742e5056c7aabd9cce7f695909206e00f43f855fa5b1be060508"
+        },
+        {
+          "path": "configs/inference_1.3B.yaml",
+          "url": "https://github.com/Omni-Avatar/OmniAvatar/blob/1536bf31abaec74364fb7d5883470d5b23ffa7f8/configs/inference_1.3B.yaml",
+          "sha256": "43e090d813c0369ae90b74143d5ddce9cd7f88eb4b696fe1ef0778836ee4e11a"
+        },
+        {
+          "path": "configs/inference.yaml",
+          "url": "https://github.com/Omni-Avatar/OmniAvatar/blob/1536bf31abaec74364fb7d5883470d5b23ffa7f8/configs/inference.yaml",
+          "sha256": "6b7613ccda919de44a1e94c88582d97beb4a92913c18688121dde53c4bac6d93"
+        },
+        {
+          "path": "OmniAvatar/utils/audio_preprocess.py",
+          "url": "https://github.com/Omni-Avatar/OmniAvatar/blob/1536bf31abaec74364fb7d5883470d5b23ffa7f8/OmniAvatar/utils/audio_preprocess.py",
+          "sha256": "df0df1a97dcdfabb489db07dde83aa82660be90bc4d46b53cae2e195e17845b0"
+        }
+      ]
+    },
+    {
+      "full_name": "Tencent-Hunyuan/HunyuanVideo-Avatar",
+      "default_branch": "main",
+      "archived": false,
+      "disabled": false,
+      "created_at": "2025-05-26T11:24:20Z",
+      "updated_at": "2026-10-20T20:32:12Z",
+      "pushed_at": "2025-12-16T12:32:46Z",
+      "open_issues_count": 74,
+      "stargazers_count": 2186,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "commit": {
+        "sha": "8c31d0d489df8418fa36a2a709ebdf0b47c7bf06",
+        "date": "2025-12-16T12:32:46Z",
+        "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar/commit/8c31d0d489df8418fa36a2a709ebdf0b47c7bf06"
+      },
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar/blob/8c31d0d489df8418fa36a2a709ebdf0b47c7bf06/README.md",
+          "sha256": "a82c36c8b989d178e602ebebae2df9f0e0a85708fd97903abbcd2a0dcf45f2fe"
+        },
+        {
+          "path": "README_zh.md",
+          "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar/blob/8c31d0d489df8418fa36a2a709ebdf0b47c7bf06/README_zh.md",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "requirements.txt",
+          "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar/blob/8c31d0d489df8418fa36a2a709ebdf0b47c7bf06/requirements.txt",
+          "sha256": "839dd43fd10f1b9808c3e4904b2d8d5594fe536b3742b741717307cd6149f97b"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar/blob/8c31d0d489df8418fa36a2a709ebdf0b47c7bf06/LICENSE",
+          "sha256": "1141fa26f9b3bf76a9f837376b760a77a3f06bbf4f7c86463a3f3da439f33419"
+        },
+        {
+          "path": "weights/README.md",
+          "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar/blob/8c31d0d489df8418fa36a2a709ebdf0b47c7bf06/weights/README.md",
+          "sha256": "a3749723e947d7c1d1037f2b05e8318afbd5736cd8719a6edfb8ac1b21e289ef"
+        },
+        {
+          "path": "scripts/run_infer.sh",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "path": "hymm_sp/sample_gpu_poor.py",
+          "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar/blob/8c31d0d489df8418fa36a2a709ebdf0b47c7bf06/hymm_sp/sample_gpu_poor.py",
+          "sha256": "52dd1337066652620f5c9442084cf32e4e2a63f04fe95585521591593205ca3a"
+        },
+        {
+          "path": "assets/test.csv",
+          "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar/blob/8c31d0d489df8418fa36a2a709ebdf0b47c7bf06/assets/test.csv",
+          "sha256": "eb93eaffc94af23725fdfcd1cb9f315ac101277b4d848927c728bba24f3dc97a"
+        }
+      ]
+    }
+  ],
+  "additional_sources": [
+    {
+      "id": "longcat_model_card",
+      "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5/raw/main/README.md",
+      "sha256": "d4b5dc706d13a511cc1aac623f75c10ac1dff902ffd915a411e398218b675cb4",
+      "bytes": 13488
+    },
+    {
+      "id": "omni_model_card",
+      "url": "https://huggingface.co/OmniAvatar/OmniAvatar-14B/raw/main/README.md",
+      "sha256": "d65626a59ca77435678564953266fd28278c9c8a04fafcc8d601931940116ac9",
+      "bytes": 6242
+    },
+    {
+      "id": "hunyuan_model_card",
+      "url": "https://huggingface.co/tencent/HunyuanVideo-Avatar/raw/main/README.md",
+      "sha256": "20c88ed0a69fd46fb38c0898a4e0d81bb612e5cefd7e374963fd16aef1ff096b",
+      "bytes": 7833
+    },
+    {
+      "id": "vllm_avatar_recipe",
+      "url": "https://raw.githubusercontent.com/vllm-project/vllm-omni/main/recipes/meituan-longcat/LongCat-Video-Avatar-1.5.md",
+      "sha256": "d3159e11c499311fdc44848c0996dce29abc9cb0e112221d21dc1111984c9f28",
+      "bytes": 11290
+    },
+    {
+      "id": "headaudio_readme",
+      "url": "https://raw.githubusercontent.com/met4citizen/HeadAudio/main/README.md",
+      "sha256": "7f4e5605a0384d2b87d78fd2e8af77830014dc69767dc547cf6e353f43cc5b64",
+      "bytes": 20015
+    }
+  ],
+  "local_code": [
+    {
+      "path": "/Users/caochao/Documents/speech-avatar/workers/musetalk/run_e1.py",
+      "sha256": "27474f918b8d8b036a75dab14f21b30435d72fb04f8edf28bebc3a63c3374353"
+    },
+    {
+      "path": "/Users/caochao/Documents/speech-avatar/scripts/analyze_e1.py",
+      "sha256": "66cd30ebd2a435d1ae76e89323cf7ec94e8aef75fc906662589b059f4032802e"
+    },
+    {
+      "path": "/Users/caochao/Documents/speech-avatar/scripts/audit_e1_quality.py",
+      "sha256": "ee4f0c7217a9051c8d2c629d85b1ebeefbeef2397dab8543e74d8322d12cd8e7"
+    },
+    {
+      "path": "/Users/caochao/Documents/voice_ai/dsh-voice-ai-girlfriend-plugin/src/client/voice/speaker.ts",
+      "sha256": "9aa68fe7720e4646f48ddf435cb6f106f1fb02b19499afd7b6953bcc56005741"
+    },
+    {
+      "path": "/Users/caochao/Documents/voice_ai/dsh-voice-ai-girlfriend-plugin/src/client/voice/companion.tsx",
+      "sha256": "6246d3685f3317beab1d1e44cad8dc6cbfbc8d5f2ba8c38149d39a6b732a8a58"
+    },
+    {
+      "path": "/Users/caochao/Documents/voice_ai/dsh-voice-ai-girlfriend-plugin/src/client/voice/reply-listener.tsx",
+      "sha256": "246e413267abeac6307382cf76c32b9693343158bc98483f84157d1317c2c624"
+    },
+    {
+      "path": "/Users/caochao/Documents/voice_ai/dsh-voice-ai-girlfriend/bridge/voice_bridge.py",
+      "sha256": "1e73f2d58c0e9e9fdccda5b00a691317f89d5fa82d01be45d81e6c0d07bf58f2"
+    },
+    {
+      "path": "/Users/caochao/Documents/local-speaker-lab/src/speaker_lab/scheduling/server.py",
+      "sha256": "f105209d75733134f0564b87b0c85f934aa84b163967613c89bc266cec9c7ee1"
+    },
+    {
+      "path": "/Users/caochao/Documents/local-speaker-lab/src/speaker_lab/scheduling/page.html",
+      "sha256": "0695d71ee16fad51b1c670506d5a59c35b1be81135600f56124d8db8fb7874c6"
+    },
+    {
+      "path": "/Users/caochao/Documents/local-speaker-lab/src/speaker_lab/duplex/protocol.py",
+      "sha256": "0e24b36bdbbed6c563e454901d9e8b7cb7bfcf94e30bdbd082fe4577c4894dd9"
+    },
+    {
+      "path": "/Users/caochao/Documents/local-speaker-lab/src/speaker_lab/duplex/review.py",
+      "sha256": "cb255272737c198bdbc2a23753d97e1e0d2d124c7580441fa9eaa2af263147bb"
+    }
+  ]
+}

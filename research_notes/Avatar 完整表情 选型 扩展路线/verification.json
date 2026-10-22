@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-20",
+  "markdown_files_checked": 20,
+  "local_links_checked": 162,
+  "missing_links": [],
+  "cached_official_text_hashes_checked": 27,
+  "e0_manifest_unchanged": true,
+  "original_e1_output_hashes_unchanged": 12,
+  "new_weights_installed": false,
+  "new_inference_executed": false,
+  "runtime_source_edited": false,
+  "ssh_accessed": false,
+  "staged_files": 0,
+  "remotes": [],
+  "new_report_sha256": "cdb29aca923ebf9931d52b735e3830921545c4eb378bfba5b74082f7eb65b6f3"
+}
