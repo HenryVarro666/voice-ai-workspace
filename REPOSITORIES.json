@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-22",
+  "code_repositories": [
+    {
+      "name": "dsh-voice-ai-girlfriend",
+      "url": "https://github.com/HenryVarro666/dsh-voice-ai-girlfriend",
+      "commit": "dffcf93f2450ca97f601a8f5c9941530222595b1"
+    },
+    {
+      "name": "dsh-voice-ai-girlfriend-plugin",
+      "url": "https://github.com/HenryVarro666/dsh-voice-ai-girlfriend-plugin",
+      "commit": "0fd3057c6a3dede4e185b82bb2cafe8dff02a5b8"
+    },
+    {
+      "name": "local-speaker-lab",
+      "url": "https://github.com/HenryVarro666/local-speaker-lab",
+      "commit": "d287943d9c362ecd95569aaea1f93e788ee7c5bb"
+    },
+    {
+      "name": "speech-avatar",
+      "url": "https://github.com/HenryVarro666/speech-avatar",
+      "commit": "f7e1dde4190e71f0ece9b7c0147a68957653b5cf"
+    }
+  ],
+  "documentation_hub": "https://github.com/HenryVarro666/voice-ai-workspace",
+  "note": "The hub is identified by its own Git commit; code repositories have independent histories."
+}

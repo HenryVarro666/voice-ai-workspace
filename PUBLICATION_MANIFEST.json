@@ -14,8 +14,8 @@
     },
     {
       "path": "EVOLUTION.md",
-      "sha256": "4d03dd242bea2a0d0b68566202c0310edff2809464d5377f8ec47f4eee9e0f7d",
-      "bytes": 197753
+      "sha256": "ffb44864677a9ebc2ce622609295f5ca896a812735ccbf27272a78d771e55849",
+      "bytes": 200729
     },
     {
       "path": "EXPERIMENTS.md",
@@ -29,8 +29,8 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "sha256": "b0b68c086e629ad3f01a4e5c35da3936e14250c92f2a3430d349e7575c8acf2f",
-      "bytes": 1514
+      "sha256": "d7d5e9012231135c885e3eacd37bffc59184b89d382020e4ab0d14679654eeae",
+      "bytes": 2895
     },
     {
       "path": "PUBLICATION.md",
@@ -39,23 +39,28 @@
     },
     {
       "path": "PUBLICATION_AUDIT.json",
-      "sha256": "503ee10990198ee68509039e4e5170c0ede58a0c54ee3eb6f24136a46e631a88",
-      "bytes": 1402
+      "sha256": "b3aeacada5d30afeaee34c81f2c2318f388592cbf53580030aec328232b75ca0",
+      "bytes": 2463
     },
     {
       "path": "README.md",
-      "sha256": "0ccd1f085e33ebab8475d6ab0f05970b384d6bca5fe7ea2264f38d3fcc12c59e",
-      "bytes": 5816
+      "sha256": "6e892055d230fd9789b4f824bd9c0b141cc90e24ee71bb6698001350b6a0a223",
+      "bytes": 5897
     },
     {
       "path": "README.zh-CN.md",
-      "sha256": "b3b4c427a4e54a26093fc7616eb1644d0bfc6cb57d3e608cd02edbdd6f569cd0",
-      "bytes": 4947
+      "sha256": "96b15d8a1ffc300ce4d43db65d2e8d803bc7be171caaf897693915e1956d86d2",
+      "bytes": 5016
+    },
+    {
+      "path": "REPOSITORIES.json",
+      "sha256": "213a55a6b808d47d0417c12ed11ecc7294215c915be6e978748a0504b188baf8",
+      "bytes": 964
     },
     {
       "path": "ROADMAP.md",
-      "sha256": "9e9de0317090b65a7c8014049f567e8cb68d9002f057062a2a40912114fa4eac",
-      "bytes": 1428
+      "sha256": "897f51aa83f58b791df5ce6864efa7cd3a9948de7e4d598b5e4fef98d6563bee",
+      "bytes": 1431
     },
     {
       "path": "docs/superpowers/plans/2026-10-20-duplexlab-implementation.md",

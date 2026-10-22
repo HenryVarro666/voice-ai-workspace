@@ -36,5 +36,31 @@
       "unittest_passed": 15
     }
   },
-  "limitations": "Local tests do not certify GPU inference, real microphones, hardware playback, human quality or production deployment."
+  "limitations": "Local tests do not certify GPU inference, real microphones, hardware playback, human quality or production deployment.",
+  "verified_remote_ci": {
+    "dsh-voice-ai-girlfriend": {
+      "run_id": 39733228542,
+      "conclusion": "success",
+      "headSha": "dffcf93f2450ca97f601a8f5c9941530222595b1",
+      "status": "completed",
+      "url": "https://github.com/HenryVarro666/dsh-voice-ai-girlfriend/actions/runs/39733228542"
+    },
+    "dsh-voice-ai-girlfriend-plugin": {
+      "run_id": 39733231208,
+      "conclusion": "success",
+      "headSha": "0fd3057c6a3dede4e185b82bb2cafe8dff02a5b8",
+      "status": "completed",
+      "url": "https://github.com/HenryVarro666/dsh-voice-ai-girlfriend-plugin/actions/runs/39733231208"
+    },
+    "local-speaker-lab": {
+      "run_id": 39734116968,
+      "conclusion": "success",
+      "matrix": "Windows and Ubuntu Python3.11/3.12 plus Linux full integration",
+      "headSha": "d287943d9c362ecd95569aaea1f93e788ee7c5bb",
+      "status": "completed",
+      "url": "https://github.com/HenryVarro666/local-speaker-lab/actions/runs/39734116968"
+    }
+  },
+  "link_targets_checked": 989,
+  "original_frozen_files_hash_checked_unchanged": 328
 }

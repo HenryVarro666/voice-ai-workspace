@@ -52,4 +52,6 @@ Public repositories include source, synthetic metadata, aggregate measurements a
 
 ## Reading order
 
+[Repository commits](REPOSITORIES.json) · [Backup maintenance](MAINTAINING.md)
+
 [Current state](PROJECT_STATUS.md) → [experiment map](EXPERIMENTS.md) → [roadmap](ROADMAP.md) → [historical technical log](EVOLUTION.md). Each code repository owns its installation instructions and detailed evidence.

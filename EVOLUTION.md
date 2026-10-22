@@ -1266,3 +1266,24 @@ Reorganized five English/Chinese README pairs around intended product/use case, 
 Local verification: bridge88tests and Ruff/format pass; plugin11tests/core typecheck/bundle pass; lab636pass/4skip/22subtests including independent source/wheel/install checks; Avatar15tests pass. Restored12 generated numerical PNG charts required by the existing package, preserved the remote overviewSVG, and added it/public scope to package inputs. Public file/local-cross-repo links986 pass. Gitleaks246 findings and retained histories reviewed: hashes, case IDs, browser preference keys, synthetic redaction token; no actual credentials or unresolved finding.
 
 Creation complete; final push/remote-tree receipts are recorded in the subsequent completion entry and PUBLIC_BACKUP.md. No GPU host access, inference, production replacement or subagents. Local audit retains original README copies and source hashes; public commits use GitHub noreply attribution.
+
+
+## 2026-10-22 GitHub source publication completed
+
+All five repositories were pushed under HenryVarro666 and verified public. Their recursive remote file trees matched the reviewed local Git trees exactly; rendered README headings were checked through GitHub. The retained histories contain no audio/video or model-weight paths. The browser plugin is an official upstream fork; the bridge uses a clean source history to exclude upstream video history.328 original frozen metadata/source files were hash-checked unchanged.
+
+The first Local Speaker Lab public CI passed Linux portable and full integration but exposed Windows timezone and byte-fixture portability failures. Added a Windows-only tzdata runtime dependency, changed test fixtures to byte writes and made the Linux lock contract evaluate Linux platform markers. Native patch-helper tests require GNU patch. Original source/candidate hash guards were not weakened. Local rerun:636passed,4skipped,22subtests. Remote follow-up CI status is captured in the final verification receipt.
+
+The public code snapshots and the documentation hub have independent histories. REPOSITORIES.json pins the four code commits; PUBLICATION_MANIFEST.json records each public tree's files. Excluded media, weights and private operational notes remain local. No GPU host, running model or service was changed.
+
+
+### Explicit native deployment test scope
+
+The Windows follow-up resolved timezone loading and the target-platform lock check. Windows still supplied a different external patch tool, so the three native Linux backend preparation tests are explicitly POSIX-only. The regular booking domain/transport and portable CPU checks continue on Windows; Linux runs the real patch operation and strict source/candidate hash guards. No native Windows GPU-backend support is asserted. Local full suite636passed/4skipped/22subtests; focused POSIX patch cases3passed.
+
+
+## 2026-10-22 Final GitHub backup verification
+
+Five public repositories were pushed and their complete recursive GitHub file trees verified against local Git trees. DSH bridge run39733228542 and plugin run39733231208 passed. Local Speaker Lab final code d287943d9c362ecd95569aaea1f93e788ee7c5bb passed run39734116968: Windows/Ubuntu Python3.11/3.12 plus full Linux integration. Three external POSIX patch deployment cases are explicitly excluded from Windows portable tests; normal booking/CPU checks remain enabled. Local88/11/636/15test suites,22labsubtests and989links passed. Credential scan246known non-secret candidates reviewed,0unresolved;328original frozen files unchanged. Snapshot public scope and metadata are recorded in PUBLICATION/AUDIT/MANIFEST and pinned code revisions in REPOSITORIES.json.
+
+Original worktrees retain their own histories and uncommitted experiment edits; editable public backups live in separate reviewed checkouts. No GPU/model/service deployment was performed. Source-only backups deliberately omit media, weights and credentials.

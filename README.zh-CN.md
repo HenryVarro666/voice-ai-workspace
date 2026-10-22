@@ -52,4 +52,6 @@
 
 ## 阅读顺序
 
+[仓库版本](REPOSITORIES.json) · [备份维护](MAINTAINING.md)
+
 [当前状态](PROJECT_STATUS.md) → [实验地图](EXPERIMENTS.md) → [路线](ROADMAP.md) → [技术历史](EVOLUTION.md)。各代码仓库负责自己的安装说明和详细证据。

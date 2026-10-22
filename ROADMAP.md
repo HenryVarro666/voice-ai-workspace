@@ -4,7 +4,7 @@ Updated2026-10-22. These are proposed next gates, not achieved outcomes.
 
 | Sequence | Work | Completion evidence |
 |---|---|---|
-|1|Preserve five source/document repositories independently|Reviewed public manifests, no credentials/weights/raw media, bilingual overview, verified remote commit IDs|
+|Done|Preserve five source/document repositories independently|Reviewed public manifests, no credentials/weights/raw media, bilingual overview, verified remote commit IDs|
 |2|Bound cancelled/stalled TTS work|Sender deadline and request lock budget; thread actually exits before lock release; isolated compatibility/recovery|
 |3|Make appointment facts clear at the actual entry|Freeze known wrong/unclear-date regression; all facts verified from audio; accepted voice behavior retained|
 |4|Validate natural voice use|Separate headphone/microphone and loudspeaker/AEC cases; correction onset, false interruption and end-to-end hardware timing|
