@@ -1,6 +1,6 @@
 # Current project state / 当前状态
 
-Publication date:2026-10-22, America/Chicago. This is the public coordination snapshot. Private operational/career notes and original media remain outside public repositories. Publishing source does not deploy it.
+Coordination snapshot updated:2026-10-23, America/Chicago. Experimental records retain their own measurement dates. This is the public coordination snapshot. Private operational/career notes and original media remain outside public repositories. Publishing source does not deploy it.
 
 | Direction | Completed evidence | Still open |
 |---|---|---|
@@ -24,3 +24,13 @@ Source backup scope and manifests are in PUBLICATION.md. The original experiment
 
 
 Final cross-platform verification: DSH bridge and browser-plugin GitHub CI passed. Local Speaker Lab run39734116968 passed Windows/Ubuntu Python3.11/3.12 and full Linux integration, with the documented POSIX-only deployment-tool scope.989local/cross-repository links passed; final exact-index credential scan introduced no unreviewed finding.328original frozen metadata/source files remained byte-identical. Code commits are pinned in REPOSITORIES.json.
+
+
+## Repeatable backup workflow / 可重复备份
+
+The original working folders remain the development locations. `backup_public.py preview` builds isolated candidates for all five public repositories, `show <plan-id> --diff` reviews the contents, and `push <plan-id>` requires an exact confirmation after displaying the list again. Credentials, weights, audio/video and runtime files stay excluded. Public coordination summaries are maintained explicitly in public_docs. The helper preserves curated remote changes, blocks stale/conflicting plans and records verified push receipts. See [instructions](PUBLIC_BACKUP.md). Preparation on 2026-10-22 used local bare remotes and a read-only preview; those preparation checks did not publish the helper.
+
+
+## 2026-10-23 Backup-tool release / 备份工具发布
+
+This release adds the repeatable backup helper, its five-repository configuration, exact-context non-secret exception list, integration tests and maintenance guide to the documentation hub. The user explicitly authorized a fresh preview, exclusion review and publication. All 16 backup integration tests were rerun successfully on 2026-10-23; they exercise local bare remotes, stale-plan/conflict rejection, source-history isolation, exclusions and interrupted-push recovery. Each candidate is reviewed and scanned before pushing; publication receipts record the exact remote revisions. Unchanged code repositories retain their existing commits. The hub and Speech Avatar use explicit public-summary overrides; concurrent new Avatar experiment code and live logs are outside this release. No GPU, speech-model or production-service validation is implied.

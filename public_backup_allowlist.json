@@ -1,0 +1,741 @@
+{
+  "version": 1,
+  "policy": "Exact repository/path/rule/full-line SHA256 exceptions only. Every new finding requires manual review; never add a real credential.",
+  "findings": [
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/reproduction.json",
+      "rule": "generic-api-key",
+      "context_sha256": "89dd08a6c6a3e7ab4b949727c03477f9e308a2e824d3e45e1c92b4fedd76fbae",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "463c596b3d8934c68bb2a6fb12532017b0d816578903d907607a1426b19ce788",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "dfc9a549f24c039b0ece3ba7a50626f9148130660a9c589940057ac1ec6c1b84",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "65301bc9a9120fd72602113316bfbe9487d30c3fac453c7eab30fbdd3b5e7be9",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "56e83bc71035fd5e5c49297d1088cabc87a7ac756c97eea98b41892090eb0d9c",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "4e3fb9c7dd267a87d109f3a20a91ab4f16cc9498d0885a60c227e38991d90981",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "ff2f8f3e5b1e67390748cfc864fa01a4499381a823065799906886c78a611135",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "3c5a5333868fae30ded30e22a6ab62be07dbe29fd2948a351a117d5f533c9213",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/interfered-run/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "139bc6e8d2d66edc45be787def79cab37d6e54a580dacd1a51398b410be5d375",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/interfered-run/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "6d2ba9dcab256fc14a111d03d475c0afd82c98c595db59a2a2015a8446c3e5fc",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/interfered-run/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "0b4f4ff929a4c33d7d264c7ec56bfd89b7219360171a38c7726b1bf203cedfa5",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/interfered-run/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "28e4efd4e544d31eddf674b15f83b5e61e7a80ae241dff24b3e5f45aeeae13ec",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/interfered-run/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "22c0420eb1e459c1316357fb3b5d1e491638224d769d7308efedd3799f18c225",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/interfered-run/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "4709ecc1330d02bd08cc0a932a8102ece6d1c05a8885f5554e5cd08cb23978c1",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/interfered-run/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "34ce8aa68f8242d041439dbc5acaf74343bfe8cbe54fb6dfdfebe4b4711b5bb3",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-xvector-integration/data/whisper/manifest.json",
+      "rule": "generic-api-key",
+      "context_sha256": "681bfd7e8727ca1bce2b6e9a9ef2b4387353e62ee9fdd77cbcb7d7daa2f6290e",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-xvector-integration/data/whisper/manifest.json",
+      "rule": "generic-api-key",
+      "context_sha256": "6e4277964a10041de691ffaeb87328e54fb8bd383e2d3ef64ea80805c431585f",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-xvector-integration/data/whisper/manifest.json",
+      "rule": "generic-api-key",
+      "context_sha256": "b133733ac942e8da8782ddd44f3d0937be89884ede7957a516b0db600c10a8f1",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-xvector-integration/data/whisper/manifest.json",
+      "rule": "generic-api-key",
+      "context_sha256": "6ed514053bfd21f72e89146d854a1e25d3fe86250fb244a9093cf30cf04be50a",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "ad3e47003a332a398aa999cbff8ae80084c29de218d41b93690e47b504b8566e",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-numeric-recheck/data/generation-trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "1748d6ff10e890538122b563ee730d9c7882d7fae533041b4ec5393cf2303e72",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-numeric-recheck/data/generation-trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "67fdcfcee6c331a775f2b23de3de38c71dd1ea11a1d0541a25f79e4d2dc8ef1d",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-numeric-recheck/data/generation-trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "b5e68a9b8e24bb9a6c7a738fab2c1ab7e7d06fd04398c96a52e957366ff88b10",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-numeric-recheck/data/generation-trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "c94f236e666d35092b16df4df369c7a56dd5e2df96d9ac21ce89f162dbbe78ba",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-numeric-recheck/data/generation-trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "04294a85a890f9a87087f5115cecad0e1d06ac802f6c6ea674fdb2cb262c1d9f",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-numeric-recheck/data/generation-trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "d3efb1ebfa743d3ef8e7147b97d609c3f158c9d8318e352fe342ecad02b1bca3",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "d33c7b07dbe42679563fb449777458a001ba602d013b129d7f6766621ff46bea",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/interfered-run/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "7454ab831e6a070936f2a556d20e68ce4e7dff0a077fa80a08180b90c397ebe1",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/interfered-run/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "5599b3e142e437412c8fd4d1f99968a2f0a5e013c3ddbc0c92795a3665127841",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "f2e8f200c78f26fcc51f49dfc6e6bde7114d1bad65f0a8aa6703a5ad0ea5c053",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/interfered-run/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "1411e10fb6d3a86cd99b96c40cb68e2071abba3841d455ca06cbf2845e0d6e83",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/interfered-run/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "145fe4c69b79b829d2d3218e8420a85c241a8f9a2f94866162b718e3a61f6be4",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/interfered-run/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "41bf1da1c234470d87a5973b18a4ef42adaffe61247f2b82a09ad44789a1e32f",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/interfered-run/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "ce63fc0a5b2cb3828d96f2f0ae04e7bb62a17368faa758b32c1ed8190c5b5d10",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "e2b12064a4afedd21b053b1c66d1b83c4ea905cc98168f0180ca2b065b3d3a45",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "fa83167dfd80c998717fb3147e0b04e092a8de4f00061210ccecd973db475c3d",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "370b515f26d03b7385b56f90f45557f9d14ac9a1afc725ed350c0434aecb66b5",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "dsh-plugin/src/client/BusyToggle.tsx",
+      "rule": "generic-api-key",
+      "context_sha256": "1317c0aba3cd5c10f4c231aa13cee3cc2f95e248bd45a85a6cb5204f72cb491b",
+      "reason": "browser-storage-key; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "dsh-plugin/src/client/VoiceToggle.tsx",
+      "rule": "generic-api-key",
+      "context_sha256": "d68fbe73dfb0cfdc305c9b2cba381dd9283584429235d5cfba853b8d30ac0bca",
+      "reason": "browser-storage-key; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "scripts/build_repetition_review.py",
+      "rule": "generic-api-key",
+      "context_sha256": "ec0500392c0f5609a5276511074042acf4ee10509e9696d99b495ca4f5b0c5d7",
+      "reason": "review-case-id-expression; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "dsh-plugin/src/client/voice/companion.tsx",
+      "rule": "generic-api-key",
+      "context_sha256": "82b49832f1f395b9247db00ca4df802ff1d53a428027e511b593139879d86b8a",
+      "reason": "browser-storage-key; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "dsh-plugin/src/client/voice/companion.tsx",
+      "rule": "generic-api-key",
+      "context_sha256": "5c7eb1e3c23fc5c5389410cd67cac7357a78bb7c8bd787ca49fed8cf1caaeea4",
+      "reason": "browser-storage-key; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-21-cancel-recovery/data/api.json",
+      "rule": "generic-api-key",
+      "context_sha256": "f0f8375d5a2324e10d1e12ec5f47c4d2e54ed16417b2922aeb46e3873ba59bdd",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-21-cancel-recovery/data/api.json",
+      "rule": "generic-api-key",
+      "context_sha256": "8b66265c36d37a9e9c508a111397a8dbd3830f934ec033a0deebab6bb8395ed7",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-21-cancel-recovery/data/api.json",
+      "rule": "generic-api-key",
+      "context_sha256": "a34361e5a2e59e34537a6dffe25fa54fd7960acd7d00a9143f1bdc22c606e5b6",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-21-cancel-recovery/data/api.json",
+      "rule": "generic-api-key",
+      "context_sha256": "f4cdf86aec98470fb5c528db1acad4f1b2a306919e09e4a382c37bb980f5955e",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-21-cancel-recovery/data/api.json",
+      "rule": "generic-api-key",
+      "context_sha256": "af1ffdcd1d6a1cf8ba4fdb987d9678997a691835602d78ee1c42c6be190ba27b",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-21-cancel-recovery/data/api.json",
+      "rule": "generic-api-key",
+      "context_sha256": "ae1a799b3571bfe4276c8a423ebf389f6ed188cf5a46173b55f3570859fac3fb",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-21-cancel-recovery/data/api.json",
+      "rule": "generic-api-key",
+      "context_sha256": "a3c2c0d3e46a2f334bfd775494afe59998770acfb2f44f1b30f41b9325285677",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-21-cancel-recovery/data/api.json",
+      "rule": "generic-api-key",
+      "context_sha256": "815fdf1730bba458c9b59a8aec8305c653838f75ec1f934a19994923b3651277",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "ba46e21d0931c951600c0825ac58ccd9daaf7da69384c876c9f83d1bc73da836",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "930c2fda172b2237a13470c05bd781f98c3b2702d6143dc5654a0a2ffc8c0524",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "57e370af0da5e0fa1c235ff3ba8289f26c68a344aa7cd678d655599f11ae396b",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend-plugin",
+      "path": "src/client/VoiceToggle.tsx",
+      "rule": "generic-api-key",
+      "context_sha256": "d68fbe73dfb0cfdc305c9b2cba381dd9283584429235d5cfba853b8d30ac0bca",
+      "reason": "browser-storage-key; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "dsh-plugin/src/client/voice/reply-listener.tsx",
+      "rule": "generic-api-key",
+      "context_sha256": "d68fbe73dfb0cfdc305c9b2cba381dd9283584429235d5cfba853b8d30ac0bca",
+      "reason": "browser-storage-key; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend-plugin",
+      "path": "src/client/BusyToggle.tsx",
+      "rule": "generic-api-key",
+      "context_sha256": "1317c0aba3cd5c10f4c231aa13cee3cc2f95e248bd45a85a6cb5204f72cb491b",
+      "reason": "browser-storage-key; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/interfered-run/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "cd0d8ff14fff653faa4585880c61d70974aa8902e09207ca02674a0c3294719e",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/interfered-run/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "a2541b8628b1fc264b23df0884fdb1725d6739b9d840ecea6a4c759574c41825",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-generation-layout/data/interfered-run/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "a8d9608c56fcb8eba0518176fa3566e3715ab27db4e1d336ecfc0ff098258762",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend-plugin",
+      "path": "src/client/voice/reply-listener.tsx",
+      "rule": "generic-api-key",
+      "context_sha256": "d68fbe73dfb0cfdc305c9b2cba381dd9283584429235d5cfba853b8d30ac0bca",
+      "reason": "browser-storage-key; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend-plugin",
+      "path": "src/client/voice/companion.tsx",
+      "rule": "generic-api-key",
+      "context_sha256": "82b49832f1f395b9247db00ca4df802ff1d53a428027e511b593139879d86b8a",
+      "reason": "browser-storage-key; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend-plugin",
+      "path": "src/client/voice/companion.tsx",
+      "rule": "generic-api-key",
+      "context_sha256": "5c7eb1e3c23fc5c5389410cd67cac7357a78bb7c8bd787ca49fed8cf1caaeea4",
+      "reason": "browser-storage-key; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-xvector-listening/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "4c19949f267776aa90931feb8c1bb6c525c20e6c24d71cb95c4ffacb9fde2381",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-xvector-listening/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "42296a64cd50ea11e168bd9c83a78027c1247e7c8286364a648f44d7396f4e78",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-xvector-listening/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "3d5b56826a3e70a92e0df6cb86e26717f4266f06c9ce746416b765814559f60a",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-xvector-listening/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "402e31b3df21b08c5f5fccb5bd1e875b411205c582f76dfcb99f87464d94f7dd",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-xvector-listening/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "efd7bff0501e1aeae409957124bab58582baf015419c137eefb7248bdc55560d",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-xvector-listening/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "85417205b30c766bfa6697b2bfcd06f9595190eaa1fbd66749930e616d7c385c",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-xvector-listening/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "ba369321448207b88b585b813ffb1a41d5616eae2c77355d2c575ad7e5a59277",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-xvector-listening/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "08408686acf31c72a15e0411a5b7a7bd49e44a8b1df90efbb4095e2991691e1b",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-xvector-listening/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "e50e79ff69309e7176648685ed58d72bdaeaacf66bb14ef37d65bce277f48cce",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-xvector-listening/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "e9963b499d9fc3323fd4b4090112179f1e17717f4ae9a2c2512e55779e94f2e5",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-20-mac-cpu/INPUTS.json",
+      "rule": "generic-api-key",
+      "context_sha256": "0ac3a1217cbb42c1e028cc873dba0622a72217e8ae53b487a4153aae4ab66a71",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-xvector-listening/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "0972afb3a200f0a2e2f6855e546cae80d0ed73f6dd8c1551370fc7174387dd2e",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/glossary/protocols/ascend-val-remaining725-train-vocab30-v1/environment.json",
+      "rule": "generic-api-key",
+      "context_sha256": "0ac3a1217cbb42c1e028cc873dba0622a72217e8ae53b487a4153aae4ab66a71",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "dsh-voice-ai-girlfriend",
+      "path": "docs/experiments/2026-10-20-xvector-listening/data/trials.jsonl",
+      "rule": "generic-api-key",
+      "context_sha256": "200ff4fa174d8001d2f3f3b5e0e80f7ab4ad2bd8a19d9461fbc07f9690856a36",
+      "reason": "experiment-case-id; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-20-coverage/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "2be8cc68528697e126a14c2eef3af055316e57017fb903eb38f2f09326c4eb9c",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-20-coverage/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "9bbdeabb3416067116c12f6f94e8785822f6c8b981590137f08234328c203a9c",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-20-coverage/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "435e514478bd2d4ea048b540eee4f76371ac8cba794d18c9799b63e59aff193e",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-20-coverage/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "80cd64ca9928d078cef34b0e4e113c5c3f7e88a226a0f207d520d73076e74a69",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-20-multiseed/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "2be8cc68528697e126a14c2eef3af055316e57017fb903eb38f2f09326c4eb9c",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-20-multiseed/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "9bbdeabb3416067116c12f6f94e8785822f6c8b981590137f08234328c203a9c",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-20-multiseed/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "435e514478bd2d4ea048b540eee4f76371ac8cba794d18c9799b63e59aff193e",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-20-multiseed/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "80cd64ca9928d078cef34b0e4e113c5c3f7e88a226a0f207d520d73076e74a69",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-20-disfluency/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "2be8cc68528697e126a14c2eef3af055316e57017fb903eb38f2f09326c4eb9c",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-20-disfluency/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "9bbdeabb3416067116c12f6f94e8785822f6c8b981590137f08234328c203a9c",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-20-disfluency/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "435e514478bd2d4ea048b540eee4f76371ac8cba794d18c9799b63e59aff193e",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-20-disfluency/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "80cd64ca9928d078cef34b0e4e113c5c3f7e88a226a0f207d520d73076e74a69",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "tests/test_upgrade_cache.py",
+      "rule": "generic-api-key",
+      "context_sha256": "0b9f25d20bba089dc2ee881f3078a658fbe34a2957f2accb1da2600b53c1fc86",
+      "reason": "synthetic-test-token; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-20-continuation/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "2be8cc68528697e126a14c2eef3af055316e57017fb903eb38f2f09326c4eb9c",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-20-continuation/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "9bbdeabb3416067116c12f6f94e8785822f6c8b981590137f08234328c203a9c",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-20-continuation/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "435e514478bd2d4ea048b540eee4f76371ac8cba794d18c9799b63e59aff193e",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-20-continuation/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "80cd64ca9928d078cef34b0e4e113c5c3f7e88a226a0f207d520d73076e74a69",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-20-continuation/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "b93734efc074a4d7ed2ff8d9c01ac7f71aff32fcf6cc08f35b552c33f35fedec",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-21-normalization/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "2be8cc68528697e126a14c2eef3af055316e57017fb903eb38f2f09326c4eb9c",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-21-normalization/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "9bbdeabb3416067116c12f6f94e8785822f6c8b981590137f08234328c203a9c",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-21-normalization/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "435e514478bd2d4ea048b540eee4f76371ac8cba794d18c9799b63e59aff193e",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-21-normalization/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "80cd64ca9928d078cef34b0e4e113c5c3f7e88a226a0f207d520d73076e74a69",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-21-normalization/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "55dbb87e6e73f27f6bf130b45fd4e25c3a68fef3ec908a77fb3b4d147e805dc9",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-20-deletion/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "2be8cc68528697e126a14c2eef3af055316e57017fb903eb38f2f09326c4eb9c",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-20-deletion/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "9bbdeabb3416067116c12f6f94e8785822f6c8b981590137f08234328c203a9c",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-20-deletion/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "435e514478bd2d4ea048b540eee4f76371ac8cba794d18c9799b63e59aff193e",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-20-deletion/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "80cd64ca9928d078cef34b0e4e113c5c3f7e88a226a0f207d520d73076e74a69",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "experiments/duplexlab/reports/2026-10-20-deletion/SUMMARY.json",
+      "rule": "generic-api-key",
+      "context_sha256": "55dbb87e6e73f27f6bf130b45fd4e25c3a68fef3ec908a77fb3b4d147e805dc9",
+      "reason": "sha256; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "local-speaker-lab",
+      "path": "tests/test_upgrade_cache.py",
+      "rule": "literal-huggingface-token",
+      "context_sha256": "dd6a5c237862ee79d0b269a5077366258494fe76a4a38fcf11597315e3970ee4",
+      "reason": "Synthetic credential-redaction test fixture; reviewed initial public snapshot 2026-10-22"
+    }
+  ]
+}

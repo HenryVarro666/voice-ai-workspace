@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "owner": "HenryVarro666",
+  "identity": {
+    "name": "Chao Cao",
+    "email": "48014495+HenryVarro666@users.noreply.github.com"
+  },
+  "state_dir": ".public-backup",
+  "allowlist": "public_backup_allowlist.json",
+  "bootstrap_source_manifest": "../voice-ai-publication-2026-10-22/audit/source-manifest.json",
+  "repositories": [
+    {
+      "name": "dsh-voice-ai-girlfriend",
+      "source": "dsh-voice-ai-girlfriend",
+      "public_checkout": "../voice-ai-publication-2026-10-22/exports/dsh-voice-ai-girlfriend",
+      "remote": "https://github.com/HenryVarro666/dsh-voice-ai-girlfriend.git",
+      "branch": "main",
+      "include": [
+        ".github",
+        "assets",
+        "bridge",
+        "docs",
+        "dsh-plugin",
+        "scripts",
+        "README.md",
+        "README.zh-CN.md",
+        "CONTRIBUTING.md",
+        "requirements-dev.txt",
+        ".gitignore",
+        "CLAUDE.md",
+        "LICENSE"
+      ],
+      "preserve": [],
+      "overrides": {},
+      "approved_binary_paths": []
+    },
+    {
+      "name": "dsh-voice-ai-girlfriend-plugin",
+      "source": "dsh-voice-ai-girlfriend-plugin",
+      "public_checkout": "../voice-ai-publication-2026-10-22/exports/dsh-voice-ai-girlfriend-plugin",
+      "remote": "https://github.com/HenryVarro666/dsh-voice-ai-girlfriend-plugin.git",
+      "branch": "master",
+      "include": [
+        ".github",
+        "src",
+        "tests",
+        "README.md",
+        "README.zh-CN.md",
+        "package.json",
+        "package-lock.json",
+        "build.mjs",
+        "cordis.patch.yml",
+        "tsconfig.json",
+        "tsdown.config.ts",
+        ".gitignore"
+      ],
+      "preserve": [],
+      "overrides": {},
+      "approved_binary_paths": []
+    },
+    {
+      "name": "local-speaker-lab",
+      "source": "../local-speaker-lab",
+      "public_checkout": "../voice-ai-publication-2026-10-22/exports/local-speaker-lab",
+      "remote": "https://github.com/HenryVarro666/local-speaker-lab.git",
+      "branch": "main",
+      "include": [
+        ".github",
+        "src",
+        "scripts",
+        "tests",
+        "docs",
+        "requirements",
+        "configs/duplexlab.example.toml",
+        "pyproject.toml",
+        "README.md",
+        "README.zh-CN.md",
+        "CONTRIBUTING.md",
+        "CHANGELOG.md",
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md",
+        "CITATION.cff",
+        "DEPLOYMENT.md",
+        "DEPLOYMENT_REVIEW.md",
+        "deploy_ubuntu.sh",
+        ".gitignore",
+        ".gitattributes",
+        ".editorconfig"
+      ],
+      "preserve": [],
+      "overrides": {},
+      "approved_binary_paths": [
+        "docs/figures/overview.png",
+        "experiments/duplexlab/reports/2026-10-20-continuation/test-errors.png",
+        "experiments/duplexlab/reports/2026-10-20-continuation/training-loss.png",
+        "experiments/duplexlab/reports/2026-10-20-coverage/coverage-design.png",
+        "experiments/duplexlab/reports/2026-10-20-coverage/test-seeds.png",
+        "experiments/duplexlab/reports/2026-10-20-deletion/deletion-contrasts.png",
+        "experiments/duplexlab/reports/2026-10-20-deletion/test-seeds.png",
+        "experiments/duplexlab/reports/2026-10-20-disfluency/coverage-design.png",
+        "experiments/duplexlab/reports/2026-10-20-disfluency/test-seeds.png",
+        "experiments/duplexlab/reports/2026-10-20-multiseed/seed-effects.png",
+        "experiments/duplexlab/reports/2026-10-20-multiseed/speaker-effects.png",
+        "experiments/duplexlab/reports/2026-10-21-normalization/deletion-contrasts.png",
+        "experiments/duplexlab/reports/2026-10-21-normalization/test-seeds.png"
+      ]
+    },
+    {
+      "name": "speech-avatar",
+      "source": "../speech-avatar",
+      "public_checkout": "../voice-ai-publication-2026-10-22/exports/speech-avatar",
+      "remote": "https://github.com/HenryVarro666/speech-avatar.git",
+      "branch": "main",
+      "include": [
+        "scripts",
+        "workers",
+        "tests",
+        "assets",
+        "docs",
+        "README.md",
+        "README.zh-CN.md",
+        ".gitignore",
+        "AGENTS.md"
+      ],
+      "preserve": [],
+      "overrides": {
+        "PROJECT_STATUS.md": "public_docs/PROJECT_STATUS.md",
+        "EVOLUTION.md": "public_docs/EVOLUTION.md"
+      },
+      "approved_binary_paths": []
+    },
+    {
+      "name": "voice-ai-workspace",
+      "source": ".",
+      "public_checkout": "../voice-ai-publication-2026-10-22/exports/voice-ai-workspace",
+      "remote": "https://github.com/HenryVarro666/voice-ai-workspace.git",
+      "branch": "main",
+      "include": [
+        "README.md",
+        "README.zh-CN.md",
+        "EXPERIMENTS.md",
+        "ROADMAP.md",
+        "MAINTAINING.md",
+        "PUBLIC_BACKUP.md",
+        "backup_public.py",
+        "public_backup_config.json",
+        "public_backup_allowlist.json",
+        "tests/test_public_backup.py",
+        "docs",
+        "reports",
+        "research_notes",
+        ".gitignore"
+      ],
+      "preserve": [
+        "REPOSITORIES.json"
+      ],
+      "overrides": {
+        "PROJECT_STATUS.md": "public_docs/PROJECT_STATUS.md",
+        "EVOLUTION.md": "public_docs/EVOLUTION.md",
+        "DUPLEXLAB_ROADMAP.md": "public_docs/DUPLEXLAB_ROADMAP.md"
+      },
+      "approved_binary_paths": []
+    }
+  ]
+}

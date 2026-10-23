@@ -1287,3 +1287,16 @@ The Windows follow-up resolved timezone loading and the target-platform lock che
 Five public repositories were pushed and their complete recursive GitHub file trees verified against local Git trees. DSH bridge run39733228542 and plugin run39733231208 passed. Local Speaker Lab final code d287943d9c362ecd95569aaea1f93e788ee7c5bb passed run39734116968: Windows/Ubuntu Python3.11/3.12 plus full Linux integration. Three external POSIX patch deployment cases are explicitly excluded from Windows portable tests; normal booking/CPU checks remain enabled. Local88/11/636/15test suites,22labsubtests and989links passed. Credential scan246known non-secret candidates reviewed,0unresolved;328original frozen files unchanged. Snapshot public scope and metadata are recorded in PUBLICATION/AUDIT/MANIFEST and pinned code revisions in REPOSITORIES.json.
 
 Original worktrees retain their own histories and uncommitted experiment edits; editable public backups live in separate reviewed checkouts. No GPU/model/service deployment was performed. Source-only backups deliberately omit media, weights and credentials.
+
+
+## 2026-10-22 Repeatable public source backup helper
+
+Added a manual preview/show/push helper and configuration for all five owned GitHub repositories. Candidates use only clean publication histories, never original source Git history. Source selection, credential/model/media exclusions, exact-context non-secret exceptions, three-way remote preservation, all-repository stale-plan preflight and resumable partial push are exercised with local bare remotes. Bilingual root README and maintenance guide document the workflow. Public coordination pages are editable public_docs overrides; full local logs stay separate. No scheduled upload or real push was performed in this round; live GitHub access was read-only for preview. Original experiment measurements and deployment states are unchanged.
+
+
+## 2026-10-23 Backup-helper publication
+
+The user explicitly authorized regenerating the five-repository preview, reviewing changes and excluding credentials, weights and audio/video before publication. Reran 16 local bare-remote integration tests successfully and checked Python compilation. This release contains the manual helper/configuration/tests and related documentation, preserving clean public histories and private operational-log overrides. File manifests and code-revision pins describe the reviewed candidate; exact post-push remote receipts are recorded separately. No experiment, GPU/model service or deployment changes are part of this release.
+
+
+Publication-scope refinement2026-10-23:stale-plan checks detected concurrent Avatar additions and live-log updates before any push. Reused the existing public_docs override mechanism for Avatar status/evolution summaries, retained the original live logs, and froze this release's selected source paths. New experiment code is not part of the backup-helper release; the default future discovery policy is preserved.

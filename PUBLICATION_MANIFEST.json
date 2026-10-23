@@ -1,11 +1,11 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "scope": "public source and reviewed metadata; no weights/credentials/raw media",
   "files": [
     {
       "path": ".gitignore",
-      "sha256": "65de2b901531997b28c6f034c8585906465a07b851b296b7b5c154a86e1d86ff",
-      "bytes": 417
+      "sha256": "fb0a5afd298e778982db04e2ff43edbc7e4109b5b9018746bc1726e19b327a14",
+      "bytes": 478
     },
     {
       "path": "DUPLEXLAB_ROADMAP.md",
@@ -14,8 +14,8 @@
     },
     {
       "path": "EVOLUTION.md",
-      "sha256": "ffb44864677a9ebc2ce622609295f5ca896a812735ccbf27272a78d771e55849",
-      "bytes": 200729
+      "sha256": "6cf91829d2cb008d373a97ff8699204c7293623623feb70a1f8e51953305bbd2",
+      "bytes": 202609
     },
     {
       "path": "EXPERIMENTS.md",
@@ -24,13 +24,13 @@
     },
     {
       "path": "MAINTAINING.md",
-      "sha256": "a028b296a331c5c603b43bea207e3ee308de2e3984a8c3611a600bfc8f6f7ef2",
-      "bytes": 1354
+      "sha256": "d5c03e3c3911180cf08fa0637589fb3764dfe488f9c62fce910e4d0fda5affc5",
+      "bytes": 2160
     },
     {
       "path": "PROJECT_STATUS.md",
-      "sha256": "d7d5e9012231135c885e3eacd37bffc59184b89d382020e4ab0d14679654eeae",
-      "bytes": 2895
+      "sha256": "262029a8e9a87aee62bc8a858e6bfd086e450b6d5db433c6570f6dd144497f75",
+      "bytes": 4628
     },
     {
       "path": "PUBLICATION.md",
@@ -43,24 +43,34 @@
       "bytes": 2463
     },
     {
+      "path": "PUBLIC_BACKUP.md",
+      "sha256": "8d9d0e5098a9e5218da88fd9f041797a6ea6a9cd8d510815e255c4b383dbceef",
+      "bytes": 7585
+    },
+    {
       "path": "README.md",
-      "sha256": "6e892055d230fd9789b4f824bd9c0b141cc90e24ee71bb6698001350b6a0a223",
-      "bytes": 5897
+      "sha256": "6eae5b1e560c54781e7f2a5bc8c0d209c1d7ed723efb63e968079948117a437b",
+      "bytes": 6585
     },
     {
       "path": "README.zh-CN.md",
-      "sha256": "96b15d8a1ffc300ce4d43db65d2e8d803bc7be171caaf897693915e1956d86d2",
-      "bytes": 5016
+      "sha256": "ef5cf9d9c7a845ae9bd5988e7a131019e04130b582e911798709ed350fb00ebc",
+      "bytes": 5610
     },
     {
       "path": "REPOSITORIES.json",
-      "sha256": "213a55a6b808d47d0417c12ed11ecc7294215c915be6e978748a0504b188baf8",
+      "sha256": "840b83df8d073eab600e19c92390b60ad380544f2a1cf549fafd2a975d287f7b",
       "bytes": 964
     },
     {
       "path": "ROADMAP.md",
       "sha256": "897f51aa83f58b791df5ce6864efa7cd3a9948de7e4d598b5e4fef98d6563bee",
       "bytes": 1431
+    },
+    {
+      "path": "backup_public.py",
+      "sha256": "3566e04d9befd23d3d8ed85f0d26c05e918e7ca40ca73c82f586a447da0084e9",
+      "bytes": 35473
     },
     {
       "path": "docs/superpowers/plans/2026-10-20-duplexlab-implementation.md",
@@ -78,39 +88,54 @@
       "bytes": 19099
     },
     {
-      "path": "reports/Avatar \u53e3\u578b\u751f\u6210 \u6280\u672f\u8def\u7ebf \u5b9e\u9a8c\u6307\u5357.md",
+      "path": "public_backup_allowlist.json",
+      "sha256": "ba2e6a3f35362bb69a47a4efb8429bcd5b89ed6a9505ab60c58b3efd56f31dd3",
+      "bytes": 35566
+    },
+    {
+      "path": "public_backup_config.json",
+      "sha256": "204a387a92609f7c508cfbda37390cdc24121f257cbc102eb0af0b1c4beaf0b2",
+      "bytes": 5285
+    },
+    {
+      "path": "reports/Avatar 口型生成 技术路线 实验指南.md",
       "sha256": "03ea9c711da90dacc8505a04d070c844365d2f5ad1119c7cef57c875152234ea",
       "bytes": 32995
     },
     {
-      "path": "reports/Avatar \u5b8c\u6574\u8868\u60c5 \u9009\u578b \u6269\u5c55\u8def\u7ebf.md",
+      "path": "reports/Avatar 完整表情 选型 扩展路线.md",
       "sha256": "b3dad3f5581fd797f18839b91efb4f80d447de049c2ed146190f8914bea1f3d3",
       "bytes": 23912
     },
     {
-      "path": "research_notes/Avatar \u53e3\u578b\u751f\u6210 \u6280\u672f\u8def\u7ebf \u5b9e\u9a8c\u6307\u5357/sources.md",
+      "path": "research_notes/Avatar 口型生成 技术路线 实验指南/sources.md",
       "sha256": "6a53c909275e5e06f610eb827172fc288619f2a46f95cebb1bc45209ad1dd74f",
       "bytes": 4084
     },
     {
-      "path": "research_notes/Avatar \u5b8c\u6574\u8868\u60c5 \u9009\u578b \u6269\u5c55\u8def\u7ebf/code-map.md",
+      "path": "research_notes/Avatar 完整表情 选型 扩展路线/code-map.md",
       "sha256": "9fa1de96f7adf681ac2bfdabe74ab783d2efd7b836e903043c7c9f58c68b784b",
       "bytes": 4674
     },
     {
-      "path": "research_notes/Avatar \u5b8c\u6574\u8868\u60c5 \u9009\u578b \u6269\u5c55\u8def\u7ebf/source-lock.json",
+      "path": "research_notes/Avatar 完整表情 选型 扩展路线/source-lock.json",
       "sha256": "c32fed7064563bcb54a6b890ea9d5085396f1519e0676f20e4aa87ff5bfa4645",
       "bytes": 12392
     },
     {
-      "path": "research_notes/Avatar \u5b8c\u6574\u8868\u60c5 \u9009\u578b \u6269\u5c55\u8def\u7ebf/sources.md",
+      "path": "research_notes/Avatar 完整表情 选型 扩展路线/sources.md",
       "sha256": "3565c4f910ee4375ba597f809d9a5c7a326bb02a4a38d734893bfb2d7f27ccd7",
       "bytes": 5860
     },
     {
-      "path": "research_notes/Avatar \u5b8c\u6574\u8868\u60c5 \u9009\u578b \u6269\u5c55\u8def\u7ebf/verification.json",
+      "path": "research_notes/Avatar 完整表情 选型 扩展路线/verification.json",
       "sha256": "4f910ae82b9d380b6a3bfd308a99aafc117358c24ce31869456cc8fae360036e",
       "bytes": 492
+    },
+    {
+      "path": "tests/test_public_backup.py",
+      "sha256": "6df6eab3c33fc16cb689ec8cb70ff8642423303c66600e50ea61c5851a71cec6",
+      "bytes": 14873
     }
   ]
 }

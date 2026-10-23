@@ -50,6 +50,10 @@ Public repositories include source, synthetic metadata, aggregate measurements a
 - Compare avatar sync by human viewing, then test one stronger framing/motion-control hypothesis.
 - Validate natural microphone input, headphones and loudspeaker echo separately from synthetic trials.
 
+## Back up while developing in the original folders
+
+Run `python3 backup_public.py preview`, review `python3 backup_public.py show <plan-id> --diff`, then use `python3 backup_public.py push <plan-id>`. Push displays the change list again and requires the exact `PUSH <plan-id>` confirmation. The helper updates five independent public histories from reviewed source changes; credentials, weights and audio/video stay excluded. Public coordination summaries come from `public_docs/`; full local logs remain in the original workspace. See [backup instructions](PUBLIC_BACKUP.md) for scope, new experiment reports and recovery. This adds a manual backup tool; it does not schedule uploads.
+
 ## Reading order
 
 [Repository commits](REPOSITORIES.json) · [Backup maintenance](MAINTAINING.md)

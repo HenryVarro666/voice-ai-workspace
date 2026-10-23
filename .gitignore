@@ -40,3 +40,6 @@ data/private/
 outputs/
 runs/
 *.log
+
+# Private backup baselines and review plans
+.public-backup/

@@ -50,6 +50,10 @@
 - 先人工比较数字人同步，再冻结一种更强构图/动作控制假设。
 - 真人麦克风、耳机、外放回声分别验收，不以合成输入代替。
 
+## 在原目录开发时备份
+
+执行 `python3 backup_public.py preview`，用 `python3 backup_public.py show <计划ID> --diff` 审查，再执行 `python3 backup_public.py push <计划ID>`。推送前再次展示清单，并要求精确输入 `PUSH <计划ID>`。脚本将审核过的源码变化同步到五个独立公开历史，继续排除凭据、权重和音视频。公开进度摘要来自 `public_docs/`，完整本地日志保留在原工作区。范围、新实验报告和中断恢复见[备份说明](PUBLIC_BACKUP.md)。这是手动备份工具，没有安排定时上传。
+
 ## 阅读顺序
 
 [仓库版本](REPOSITORIES.json) · [备份维护](MAINTAINING.md)
