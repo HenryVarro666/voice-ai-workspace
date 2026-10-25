@@ -1,5 +1,13 @@
 # Current project state / 当前状态
 
+## 2026-10-24 Avatar actual TTS streaming
+
+[Speech Avatar E5a](https://github.com/HenryVarro666/speech-avatar/blob/main/experiments/2026-10-24-e5-live-tts/RESULTS.md) connects fixed Qwen3-TTS presets to actual single-player scheduling in an independent instance.7browser calls yield5complete/4newChinese texts,1controlled barge-in cancellation and1properlyincomplete transport drop; explicit recovery/stale rejection pass. FirstPCM3.133–5.363s, plannedstart3.183–5.415s, CPU RTF3.135–3.591/maxgap2.840s: lifecycle substage passes, realtimeperformance does not.36tests pass. Actual microphone/ASR/translation/humanAV/production remain pending. This user authorized reviewed source-only publication; no rawvoice/model/vendor/credentials or original Git history are exported.
+
+## 2026-10-24 Avatar realtime interface pilot
+
+Speech Avatar adds a local idle/RMS/HeadAudio comparison using one actual DSH playback clock and optional fault-isolated schedule observations.12complete fixture comparisons retain exact sample counts;10local fault/recovery checks pass. Planned audio start51.6–81.9ms, first active pose78–206ms after planned audio start, rollingrAFP95 8.8–9.3ms; physical/live upstream latency unmeasured.27avatar/13plugin tests plus typecheck/build pass. Local GPU drawing is an approximate portrait prototype; live ASR/translation/TTS, human Chinese AV acceptance, dedicated neural GPU benchmark and deployment remain pending. [Results](https://github.com/HenryVarro666/speech-avatar/blob/main/experiments/2026-10-24-e2-e5-realtime/RESULTS.md).
+
 Coordination snapshot updated:2026-10-23, America/Chicago. Experimental records retain their own measurement dates. This is the public coordination snapshot. Private operational/career notes and original media remain outside public repositories. Publishing source does not deploy it.
 
 | Direction | Completed evidence | Still open |
@@ -34,3 +42,22 @@ The original working folders remain the development locations. `backup_public.py
 ## 2026-10-23 Backup-tool release / 备份工具发布
 
 This release adds the repeatable backup helper, its five-repository configuration, exact-context non-secret exception list, integration tests and maintenance guide to the documentation hub. The user explicitly authorized a fresh preview, exclusion review and publication. All 16 backup integration tests were rerun successfully on 2026-10-23; they exercise local bare remotes, stale-plan/conflict rejection, source-history isolation, exclusions and interrupted-push recovery. Each candidate is reviewed and scanned before pushing; publication receipts record the exact remote revisions. Unchanged code repositories retain their existing commits. The hub and Speech Avatar use explicit public-summary overrides; concurrent new Avatar experiment code and live logs are outside this release. No GPU, speech-model or production-service validation is implied.
+
+
+## 2026-10-23 Avatar reference-framing result
+
+Speech Avatar completed two fixed-ROI reference-input renders against E1c parents, with the same accepted audio, prompt, seed and model. Exact source pixels and actual conditioned audio payloads were retained. Face-box area increased26.62%→41.22% /27.07%→42.49%, but hand entry, emphasized articulation and teeth issues remain; tighter headroom is a tradeoff. The change is not adopted as a hand/expression fix. Complete processes271.001/264.656s include loads; these are offline experiments, not conversation latency.18CPUtests,2decode/audio checks,258single-face frames and4browser playbacks pass; human AV acceptance pending. Next verify explicit motion/driving-video or rig interfaces before more inference. No production/apex change or publication in this experiment.
+
+
+## 2026-10-23 E1d review recovery
+
+Completed videos were preserved and the local preview gained draft feedback export. Framing preference and explicit audiovisual acceptance are independent; defaults stay unreviewed, the export binds frozen clip hashes, and human records are never auto-filled.22CPUtests and4fresh browser playbacks pass; actual downloads, reveal, single audio and clean delivery were checked using isolated QA fixtures. No new render, model/service change or apex access; E1d remains NEEDS WORK and human acceptance pending.
+
+
+## 2026-10-23 E1f-R男女分区动作对照完成
+
+先核对显式控制接口，选LivePortrait原生模板分区：头姿/非眼表达0.65、眼区1.0、global1.0，复用原头像/已接受配音/E1c驱动。男女各attempt1成功，原生worker856.164/371.437s；共享CPU亲和性不同，见资源修订，不作速度排名。2片1254²/25fps、258单脸帧/原PCM母版通过；旧片/评分保留。深闭眼与轻头动/嘴幅可共存，下沿未见手部；牙齿仍软、末帧略张口和模型同步偏移未修，NEEDS WORK/人工接受null。[结果](https://github.com/HenryVarro666/speech-avatar/blob/main/experiments/2026-10-23-e1f-regional-motion/RESULTS.md)。
+
+[本地四段预览](http://127.0.0.1:54462/index.html)；本轮独立目录2026-10-23-e1f-regional-motion，和另项E1f-independent-blink互不覆盖。[每步进展总账](https://github.com/HenryVarro666/speech-avatar/blob/main/experiments/PROGRESS_LEDGER.md)汇总问题→改动→证据→决定；早期格式不同，主要步骤/失败有记录，不声称完整逐命令历史。无apex、共享环境/服务改动、GPU推理、子代理、暂存/源码提交或推送。公开备份仅preview/diff。
+
+E1f-R verification2026-10-23:26CPU tests,9script compiles,4browser endings/served hashes,258paired eye/mouth/lower-edge frames,29full/15native frames and4known nonzero sync controls pass. Source PCM exact,197locked parent files unchanged;human AVpending,NEEDS WORK. Noapex/shared-service restart/GPU inference/source commit/push.

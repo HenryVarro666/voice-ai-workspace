@@ -637,7 +637,7 @@ bridge 侧（`scripts/stream_probe.py`，LLM 空闲时）：
 
 apex重放181条/241段：幅度v2有5段删除，共25.543秒；严格版本零触发，真实尾部收益为0。从首条归档0.6B生成结尾减弱重复构造负例，幅度v2分别删除18050/962个非零样本，严格版本均0。弱声为受控变化，不是天然轻声或人工听感。6条真实HTTP流旁路相同原始包，严格版本输出不变，新增理想首声等待0.056–0.081ms。4个节拍夹具中慢流新增理想欠载最多0.079ms，不冒称零开销或浏览器播放实测。
 
-首包后50/150/350ms各取消一个自有长文本请求，源关闭0.269/0.151/0.234ms，新增输出0、缓存0；bridge三次记录stream cancelled与cancelled mid-synthesis。服务器日志标记间18–74ms不等于客户端到GPU取消精确延迟。没有重测真人VAD、外放或浏览器已排队音频。
+首包后50/150/348ms各取消一个自有长文本请求，源关闭0.269/0.151/0.234ms，新增输出0、缓存0；bridge三次记录stream cancelled与cancelled mid-synthesis。服务器日志标记间18–74ms不等于客户端到GPU取消精确延迟。没有重测真人VAD、外放或浏览器已排队音频。
 
 实验初次因归档实际在main-01子目录读取失败，发生在HTTP测试前；保留空run-1，修正后run-2完整完成。工具/音频位于apex ~/voice-ai/experiments/20261020-tail-safety，公开仓库归档results.json、postcheck和测试输出，不复制个人音频。结果文档、双语README、实验索引和Bug记录同步。
 
@@ -1300,3 +1300,32 @@ The user explicitly authorized regenerating the five-repository preview, reviewi
 
 
 Publication-scope refinement2026-10-23:stale-plan checks detected concurrent Avatar additions and live-log updates before any push. Reused the existing public_docs override mechanism for Avatar status/evolution summaries, retained the original live logs, and froze this release's selected source paths. New experiment code is not part of the backup-helper release; the default future discovery policy is preserved.
+
+
+## 2026-10-23 Avatar reference-framing result
+
+Speech Avatar completed two fixed-ROI reference-input renders against E1c parents, with the same accepted audio, prompt, seed and model. Exact source pixels and actual conditioned audio payloads were retained. Face-box area increased26.62%→41.22% /27.07%→42.49%, but hand entry, emphasized articulation and teeth issues remain; tighter headroom is a tradeoff. The change is not adopted as a hand/expression fix. Complete processes271.001/264.656s include loads; these are offline experiments, not conversation latency.18CPUtests,2decode/audio checks,258single-face frames and4browser playbacks pass; human AV acceptance pending. Next verify explicit motion/driving-video or rig interfaces before more inference. No production/apex change or publication in this experiment.
+
+
+## 2026-10-23 E1d review recovery
+
+Completed videos were preserved and the local preview gained draft feedback export. Framing preference and explicit audiovisual acceptance are independent; defaults stay unreviewed, the export binds frozen clip hashes, and human records are never auto-filled.22CPUtests and4fresh browser playbacks pass; actual downloads, reveal, single audio and clean delivery were checked using isolated QA fixtures. No new render, model/service change or apex access; E1d remains NEEDS WORK and human acceptance pending.
+
+
+## 2026-10-23 E1f-R男女分区动作对照完成
+
+先核对显式控制接口，选LivePortrait原生模板分区：头姿/非眼表达0.65、眼区1.0、global1.0，复用原头像/已接受配音/E1c驱动。男女各attempt1成功，原生worker856.164/371.437s；共享CPU亲和性不同，见资源修订，不作速度排名。2片1254²/25fps、258单脸帧/原PCM母版通过；旧片/评分保留。深闭眼与轻头动/嘴幅可共存，下沿未见手部；牙齿仍软、末帧略张口和模型同步偏移未修，NEEDS WORK/人工接受null。[结果](https://github.com/HenryVarro666/speech-avatar/blob/main/experiments/2026-10-23-e1f-regional-motion/RESULTS.md)。
+
+[本地四段预览](http://127.0.0.1:54462/index.html)；本轮独立目录2026-10-23-e1f-regional-motion，和另项E1f-independent-blink互不覆盖。[每步进展总账](https://github.com/HenryVarro666/speech-avatar/blob/main/experiments/PROGRESS_LEDGER.md)汇总问题→改动→证据→决定；早期格式不同，主要步骤/失败有记录，不声称完整逐命令历史。无apex、共享环境/服务改动、GPU推理、子代理、暂存/源码提交或推送。公开备份仅preview/diff。
+
+E1f-R verification2026-10-23:26CPU tests,9script compiles,4browser endings/served hashes,258paired eye/mouth/lower-edge frames,29full/15native frames and4known nonzero sync controls pass. Source PCM exact,197locked parent files unchanged;human AVpending,NEEDS WORK. Noapex/shared-service restart/GPU inference/source commit/push.
+
+
+## 2026-10-24 Avatar realtime interface pilot
+
+Speech Avatar adds a local idle/RMS/HeadAudio comparison using one actual DSH playback clock and optional fault-isolated schedule observations.12complete fixture comparisons retain exact sample counts;10local fault/recovery checks pass. Planned audio start51.6–81.9ms, first active pose78–206ms after planned audio start, rollingrAFP95 8.8–9.3ms; physical/live upstream latency unmeasured.27avatar/13plugin tests plus typecheck/build pass. Local GPU drawing is an approximate portrait prototype; live ASR/translation/TTS, human Chinese AV acceptance, dedicated neural GPU benchmark and deployment remain pending. [Results](https://github.com/HenryVarro666/speech-avatar/blob/main/experiments/2026-10-24-e2-e5-realtime/RESULTS.md).
+
+
+## 2026-10-24 Avatar actual TTS streaming
+
+[Speech Avatar E5a](https://github.com/HenryVarro666/speech-avatar/blob/main/experiments/2026-10-24-e5-live-tts/RESULTS.md) connects fixed Qwen3-TTS presets to actual single-player scheduling in an independent instance.7browser calls yield5complete/4newChinese texts,1controlled barge-in cancellation and1properlyincomplete transport drop; explicit recovery/stale rejection pass. FirstPCM3.133–5.363s, plannedstart3.183–5.415s, CPU RTF3.135–3.591/maxgap2.840s: lifecycle substage passes, realtimeperformance does not.36tests pass. Actual microphone/ASR/translation/humanAV/production remain pending. This user authorized reviewed source-only publication; no rawvoice/model/vendor/credentials or original Git history are exported.

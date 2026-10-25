@@ -8,7 +8,7 @@ The README describes intended products. This map identifies which experiment cha
 | Browser interaction | Can capture, sentence state and scheduled audio avoid stale/repeated results? | Offline core contracts exist; host, microphone and hardware acceptance remain separate | [Plugin methods](https://github.com/HenryVarro666/dsh-voice-ai-girlfriend-plugin) |
 | Appointment agent | Can the latest requested slot be correctly spoken and confirmed after interruption? | Cached1.552s prototype retained;0.898/0.868s candidates rejected | [Scheduling studies](https://github.com/HenryVarro666/local-speaker-lab/blob/main/docs/EXPERIMENT_INDEX.md#interactive-scheduling) |
 | DuplexLab | Does curated or weighted training improve speech content retention? | Multiple frozen studies do not establish a reliable overall gain | [ASR studies](https://github.com/HenryVarro666/local-speaker-lab/blob/main/docs/EXPERIMENT_INDEX.md#duplexlab-matched-budget-asr-studies) |
-| Avatar | Can offline portraits preserve clear speech with natural expression? | LongCat offline candidate/MuseTalk baseline;E1c prompt-only gate not met | [Avatar stages](https://github.com/HenryVarro666/speech-avatar/blob/main/experiments/INDEX.md) |
+| Avatar | Can offline portraits preserve clear speech with natural expression? | LongCat offline candidate/MuseTalk baseline; E1c prompt-only and E1d tighter-reference trials did not establish a fix | [Avatar stages](https://github.com/HenryVarro666/speech-avatar/blob/main/experiments/INDEX.md) |
 
 ## Reading a record
 

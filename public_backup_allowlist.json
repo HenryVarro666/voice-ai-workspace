@@ -736,6 +736,13 @@
       "rule": "literal-huggingface-token",
       "context_sha256": "dd6a5c237862ee79d0b269a5077366258494fe76a4a38fcf11597315e3970ee4",
       "reason": "Synthetic credential-redaction test fixture; reviewed initial public snapshot 2026-10-22"
+    },
+    {
+      "repo": "speech-avatar",
+      "path": "experiments/2026-10-24-e5-live-tts/runtime-pin.json",
+      "rule": "generic-api-key",
+      "context_sha256": "687492342b6df31b9900470cf873518656daa93f9052644e0d9ac0962f0ef51d",
+      "reason": "SHA256 of fixed official tokenizer Python source, verified against actual read-only installed file on 2026-10-24; not a credential"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-25",
   "scope": "public source and reviewed metadata; no weights/credentials/raw media",
   "files": [
     {
@@ -14,13 +14,13 @@
     },
     {
       "path": "EVOLUTION.md",
-      "sha256": "6cf91829d2cb008d373a97ff8699204c7293623623feb70a1f8e51953305bbd2",
-      "bytes": 202609
+      "sha256": "37b7a9b0431d3ebc804c9ac74da6c0fa65a5fe42cfbe409368f36b223aa6115e",
+      "bytes": 207079
     },
     {
       "path": "EXPERIMENTS.md",
-      "sha256": "0c31f1dba1a4b346764e19b20c7dabaf6a824942abb0a7b84ae277a63336e2e6",
-      "bytes": 2643
+      "sha256": "0c7d44687629be2c3f62f7379a4067c71189768201cdf75d334ae926a5888d96",
+      "bytes": 2688
     },
     {
       "path": "MAINTAINING.md",
@@ -29,8 +29,8 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "sha256": "262029a8e9a87aee62bc8a858e6bfd086e450b6d5db433c6570f6dd144497f75",
-      "bytes": 4628
+      "sha256": "b1e758ddd5d2c6f61c89532dab8321e5ef0925f42b22ef35b31f4ca44a6b4cd7",
+      "bytes": 9096
     },
     {
       "path": "PUBLICATION.md",
@@ -49,17 +49,17 @@
     },
     {
       "path": "README.md",
-      "sha256": "6eae5b1e560c54781e7f2a5bc8c0d209c1d7ed723efb63e968079948117a437b",
-      "bytes": 6585
+      "sha256": "00789b3c7321d8bb6f385ee11f256ed275c47a2fbc023c852730e85070fa3b89",
+      "bytes": 8190
     },
     {
       "path": "README.zh-CN.md",
-      "sha256": "ef5cf9d9c7a845ae9bd5988e7a131019e04130b582e911798709ed350fb00ebc",
-      "bytes": 5610
+      "sha256": "ebbe419442cef05050059b30a6de477bde0ac8ae5aa5e0db16b533ac83743bd5",
+      "bytes": 7032
     },
     {
       "path": "REPOSITORIES.json",
-      "sha256": "840b83df8d073eab600e19c92390b60ad380544f2a1cf549fafd2a975d287f7b",
+      "sha256": "f0fd86fc68305281698e89f9837ff412b2b716c4b1d608618f4612c8b139c0f7",
       "bytes": 964
     },
     {
@@ -89,13 +89,18 @@
     },
     {
       "path": "public_backup_allowlist.json",
-      "sha256": "ba2e6a3f35362bb69a47a4efb8429bcd5b89ed6a9505ab60c58b3efd56f31dd3",
-      "bytes": 35566
+      "sha256": "04e46c47ce9dbc17adf9512c4725bea4404d754c7d92f6da60f6a096d0ecef16",
+      "bytes": 35953
     },
     {
       "path": "public_backup_config.json",
-      "sha256": "204a387a92609f7c508cfbda37390cdc24121f257cbc102eb0af0b1c4beaf0b2",
-      "bytes": 5285
+      "sha256": "7dffb190a7f3ad4add1081139c6ef609bf8e8f16833be0dc488774cd447c7915",
+      "bytes": 8148
+    },
+    {
+      "path": "reports/2026-10-23-upstream-effect-gap-audit.md",
+      "sha256": "c3104dbb87d71ddb7d78fe80f98ff4e70fc3c39741117272cb312d8400ea3249",
+      "bytes": 8588
     },
     {
       "path": "reports/Avatar 口型生成 技术路线 实验指南.md",
@@ -104,8 +109,8 @@
     },
     {
       "path": "reports/Avatar 完整表情 选型 扩展路线.md",
-      "sha256": "b3dad3f5581fd797f18839b91efb4f80d447de049c2ed146190f8914bea1f3d3",
-      "bytes": 23912
+      "sha256": "2ecc15f292d5cf14c69f7d1c272ea0e65c3f36cafec916c1a070884073850dc5",
+      "bytes": 25200
     },
     {
       "path": "research_notes/Avatar 口型生成 技术路线 实验指南/sources.md",

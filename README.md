@@ -31,8 +31,17 @@ The main showcase is a simulated appointment assistant: request a slot, interrup
 | Is sub-second booking readback ready? | Prefill 0.898 s failed a date guard; later 0.868 s pacing candidate retained a human-confirmed wrong/unclear date | Reject both candidates; computational parity and ASR checks do not replace human factual clarity |
 | Does selected or weighted ASR training improve retention? | Latest four-arm/three-seed pilot: MER 9.7315 / 9.8353 / 9.8353 / 10.1329% on 362 clips | No reliable selection/weighting benefit; native/uniform controls match under measured batch-1 conditions |
 | Can prompts alone fix avatar expression? | E1c generated two controlled-prompt videos plus six local sync derivatives; hands and emphasized articulation persist | NEEDS WORK; conditional tail generation skipped; human AV acceptance pending |
+| Can a tighter input reference constrain avatar actions? | E1d generated two fixed-ROI reference videos with the same audio/prompt/seed/model; hands and emphasized expressions remain | Framing changed, but no hand/expression fix established; 18 CPU tests pass; human AV acceptance pending |
+| Can mouth timing and endings improve while preserving blinks? | E1g — local-only artifact: `../speech-avatar/experiments/2026-10-24-e1g-mouth-sync-tail/RESULTS.md`: mouth-only80ms delay,0.48s silent ending; offset -80→0ms and6/6closed tail frames, blinks/AAC exact | Familiar-clip candidate; confidence decreases, human AV/new-phrase validation pending; no service change |
+| Can oral texture improve without losing current motion/sync? | E1h — local-only artifact: `../speech-avatar/experiments/2026-10-24-e1h-oral-detail/RESULTS.md`: light unsharp modestly stronger; bounded GFPGAN not superior; eyes/lips/tail/AAC exact, sync0ms | Keep model restoration off by default; human comparison/new-audio async staging next |
 
 These rows use different datasets and timing boundaries. They must not be combined into a single speed or quality score. Full protocols, failures and uncertainty are linked from the [experiment map](EXPERIMENTS.md).
+
+<!-- e2-async-trial -->
+
+The user retained the exact E1h light-unsharp clip. A separate single-user asynchronous trial — local-only artifact: `../speech-avatar/experiments/2026-10-24-e2-async-single-user/RUNBOOK.md` is in progress:12new Serena utterances are prepared and actual new-audio MuseTalk videos are being generated on RAID/CPU. Seven subprocess-backed queue/epoch tests pass; complete12-video/browser and fault validation is still pending. This is separate from the browser realtime pilot.
+
+<!-- /e2-async-trial -->
 
 ## How experiments are recorded
 
@@ -47,7 +56,7 @@ Public repositories include source, synthetic metadata, aggregate measurements a
 - Make TTS cancellation bounded under a stalled sender, then verify compatibility and replacement/recovery before deployment.
 - Resolve booking startup-word/date clarity against a frozen actual-entry regression before further latency optimization.
 - Freeze tokenizer save/load and mixed-length batch contracts before another ASR training study; inspect reference/acoustic disagreements on train/dev first.
-- Compare avatar sync by human viewing, then test one stronger framing/motion-control hypothesis.
+- Freeze accepted avatar visuals, then validate new-audio single-user async generation/playback, cancellation and fallback; no realtime readiness claim.
 - Validate natural microphone input, headphones and loudspeaker echo separately from synthetic trials.
 
 ## Back up while developing in the original folders

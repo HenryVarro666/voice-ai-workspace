@@ -4,12 +4,12 @@
     {
       "name": "dsh-voice-ai-girlfriend",
       "url": "https://github.com/HenryVarro666/dsh-voice-ai-girlfriend",
-      "commit": "dffcf93f2450ca97f601a8f5c9941530222595b1"
+      "commit": "709f7d87729bbd53f10eccb0e647fa9dbee5f8b6"
     },
     {
       "name": "dsh-voice-ai-girlfriend-plugin",
       "url": "https://github.com/HenryVarro666/dsh-voice-ai-girlfriend-plugin",
-      "commit": "0fd3057c6a3dede4e185b82bb2cafe8dff02a5b8"
+      "commit": "98014dd9d02775a2c6fd9c1e805e33f0424c7f1d"
     },
     {
       "name": "local-speaker-lab",
@@ -19,7 +19,7 @@
     {
       "name": "speech-avatar",
       "url": "https://github.com/HenryVarro666/speech-avatar",
-      "commit": "c30b8696efd023da7fd3fe1e948a4180dda7ab5a"
+      "commit": "f496f56b5012305deb2ef94bebb6bed19fff6154"
     }
   ],
   "documentation_hub": "https://github.com/HenryVarro666/voice-ai-workspace",
