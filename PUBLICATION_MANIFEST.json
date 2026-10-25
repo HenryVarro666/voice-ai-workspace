@@ -14,13 +14,13 @@
     },
     {
       "path": "EVOLUTION.md",
-      "sha256": "37b7a9b0431d3ebc804c9ac74da6c0fa65a5fe42cfbe409368f36b223aa6115e",
-      "bytes": 207079
+      "sha256": "bf3129a1f9eb10483b2c1489f2b9aa9494c6b2e6ea08423a2cfbea65b5b12a61",
+      "bytes": 208301
     },
     {
       "path": "EXPERIMENTS.md",
-      "sha256": "0c7d44687629be2c3f62f7379a4067c71189768201cdf75d334ae926a5888d96",
-      "bytes": 2688
+      "sha256": "4315c1f7edd306c1f9fc270d354b91af7b9e25ad30b982212d26234c582db52c",
+      "bytes": 4386
     },
     {
       "path": "MAINTAINING.md",
@@ -29,8 +29,8 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "sha256": "b1e758ddd5d2c6f61c89532dab8321e5ef0925f42b22ef35b31f4ca44a6b4cd7",
-      "bytes": 9096
+      "sha256": "19d3ac569fa7e5c2f48e2ab51d7476907dc4b1acdb6af491ecad023a05e77382",
+      "bytes": 10316
     },
     {
       "path": "PUBLICATION.md",
@@ -49,17 +49,17 @@
     },
     {
       "path": "README.md",
-      "sha256": "00789b3c7321d8bb6f385ee11f256ed275c47a2fbc023c852730e85070fa3b89",
-      "bytes": 8190
+      "sha256": "6f1ddb405f70c187768fa94222eaf7953cbdaa4c488f0fb3b0509cccd8a93c87",
+      "bytes": 8643
     },
     {
       "path": "README.zh-CN.md",
-      "sha256": "ebbe419442cef05050059b30a6de477bde0ac8ae5aa5e0db16b533ac83743bd5",
-      "bytes": 7032
+      "sha256": "114ca604fde7c1fdb2a34dbb764d44aa921b49f1930aab33881bf26dac6ebb9d",
+      "bytes": 7378
     },
     {
       "path": "REPOSITORIES.json",
-      "sha256": "f0fd86fc68305281698e89f9837ff412b2b716c4b1d608618f4612c8b139c0f7",
+      "sha256": "6fcc4f58c31a688170f565dca6f8dd79e70b33d0f98e1ce3dde7b1ecee1b9ed8",
       "bytes": 964
     },
     {
@@ -89,13 +89,13 @@
     },
     {
       "path": "public_backup_allowlist.json",
-      "sha256": "04e46c47ce9dbc17adf9512c4725bea4404d754c7d92f6da60f6a096d0ecef16",
-      "bytes": 35953
+      "sha256": "1c1e15663ac0570c3e35af00c5523506802f2dd6b876ad850445f690e177b048",
+      "bytes": 36355
     },
     {
       "path": "public_backup_config.json",
-      "sha256": "7dffb190a7f3ad4add1081139c6ef609bf8e8f16833be0dc488774cd447c7915",
-      "bytes": 8148
+      "sha256": "c40b3984cca1c1cb5c01b23fec2af23c93d634638deb35718da59db8e5154acd",
+      "bytes": 8674
     },
     {
       "path": "reports/2026-10-23-upstream-effect-gap-audit.md",

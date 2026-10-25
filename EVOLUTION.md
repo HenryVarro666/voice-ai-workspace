@@ -1329,3 +1329,11 @@ Speech Avatar adds a local idle/RMS/HeadAudio comparison using one actual DSH pl
 ## 2026-10-24 Avatar actual TTS streaming
 
 [Speech Avatar E5a](https://github.com/HenryVarro666/speech-avatar/blob/main/experiments/2026-10-24-e5-live-tts/RESULTS.md) connects fixed Qwen3-TTS presets to actual single-player scheduling in an independent instance.7browser calls yield5complete/4newChinese texts,1controlled barge-in cancellation and1properlyincomplete transport drop; explicit recovery/stale rejection pass. FirstPCM3.133–5.363s, plannedstart3.183–5.415s, CPU RTF3.135–3.591/maxgap2.840s: lifecycle substage passes, realtimeperformance does not.36tests pass. Actual microphone/ASR/translation/humanAV/production remain pending. This user authorized reviewed source-only publication; no rawvoice/model/vendor/credentials or original Git history are exported.
+
+
+## 2026-10-25 E5b：CUDA路径已准备，GPU对照待空闲资源
+
+[本轮记录](https://github.com/HenryVarro666/speech-avatar/blob/main/experiments/2026-10-25-e5-gpu-comparison/RESULTS.md)：固定同模型/revision/参数/4文本/12帧分块/24kHz协议，新增显式CUDA/UUID资源保护和独立后端选择。分配前GPU1已被其他任务占用，GPU推理0次；速度/停顿改善和GPU恢复验收均未完成，不能以41项本地测试替代实卡验收。新CPU路由9实际请求：7完整/1播放中取消/1断流incomplete；显式重试、新句恢复与旧错误丢弃通过，7PCM/hash/样本/code检查通过。首PCM3.040–4.471s、RTF3.088–3.571、最大计划间隙2.696s，CPU性能门槛仍未过。
+
+[独立预览49917](http://127.0.0.1:49917/index.html)；原50451保留。新GPU入口只在无其他计算PID、空闲且完成自有上下文复查后使用；未操作apex/共享包/其他进程。独立H100最近资源核验2026-10-25；841旧冻结记录不变。下一步等空闲卡，GPU预热后执行4句交叉主对照和7请求恢复；真人麦克风/ASR/翻译/人工AV/部署均未验收。用户授权本轮审查后源码/元数据公开备份，推送回执另记。
+

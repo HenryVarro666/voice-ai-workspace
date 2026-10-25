@@ -164,7 +164,15 @@
         "experiments/2026-10-24-e5-live-tts/manifest.sha256",
         "experiments/2026-10-24-e5-live-tts/runtime-pin.json",
         "experiments/2026-10-24-e5-live-tts/PUBLIC_SUMMARY.json",
-        "experiments/2026-10-24-e5-live-tts/analyze.py"
+        "experiments/2026-10-24-e5-live-tts/analyze.py",
+        "experiments/2026-10-25-e5-gpu-comparison/PLAN.md",
+        "experiments/2026-10-25-e5-gpu-comparison/EXECUTION.md",
+        "experiments/2026-10-25-e5-gpu-comparison/RESULTS.md",
+        "experiments/2026-10-25-e5-gpu-comparison/manifest.json",
+        "experiments/2026-10-25-e5-gpu-comparison/manifest.sha256",
+        "experiments/2026-10-25-e5-gpu-comparison/runtime-pin.json",
+        "experiments/2026-10-25-e5-gpu-comparison/PUBLIC_SUMMARY.json",
+        "experiments/2026-10-25-e5-gpu-comparison/analyze.py"
       ],
       "preserve": [],
       "overrides": {

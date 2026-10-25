@@ -33,13 +33,13 @@ The main showcase is a simulated appointment assistant: request a slot, interrup
 | Can prompts alone fix avatar expression? | E1c generated two controlled-prompt videos plus six local sync derivatives; hands and emphasized articulation persist | NEEDS WORK; conditional tail generation skipped; human AV acceptance pending |
 | Can a tighter input reference constrain avatar actions? | E1d generated two fixed-ROI reference videos with the same audio/prompt/seed/model; hands and emphasized expressions remain | Framing changed, but no hand/expression fix established; 18 CPU tests pass; human AV acceptance pending |
 | Can mouth timing and endings improve while preserving blinks? | E1g — local-only artifact: `../speech-avatar/experiments/2026-10-24-e1g-mouth-sync-tail/RESULTS.md`: mouth-only80ms delay,0.48s silent ending; offset -80→0ms and6/6closed tail frames, blinks/AAC exact | Familiar-clip candidate; confidence decreases, human AV/new-phrase validation pending; no service change |
-| Can oral texture improve without losing current motion/sync? | E1h — local-only artifact: `../speech-avatar/experiments/2026-10-24-e1h-oral-detail/RESULTS.md`: light unsharp modestly stronger; bounded GFPGAN not superior; eyes/lips/tail/AAC exact, sync0ms | Keep model restoration off by default; human comparison/new-audio async staging next |
+| Can oral texture improve without losing current motion/sync? | E1h — local-only artifact: `../speech-avatar/experiments/2026-10-24-e1h-oral-detail/RESULTS.md`: light unsharp modestly stronger; bounded GFPGAN not superior; eyes/lips/tail/AAC exact, sync0ms | Keep model restoration off; user retained the original unsharp clip; new-input synchronization/acceptance is separate |
 
 These rows use different datasets and timing boundaries. They must not be combined into a single speed or quality score. Full protocols, failures and uncertainty are linked from the [experiment map](EXPERIMENTS.md).
 
 <!-- e2-async-trial -->
 
-The user retained the exact E1h light-unsharp clip. A separate single-user asynchronous trial — local-only artifact: `../speech-avatar/experiments/2026-10-24-e2-async-single-user/RUNBOOK.md` is in progress:12new Serena utterances are prepared and actual new-audio MuseTalk videos are being generated on RAID/CPU. Seven subprocess-backed queue/epoch tests pass; complete12-video/browser and fault validation is still pending. This is separate from the browser realtime pilot.
+The user retained the exact E1h light-unsharp clip. The independent new-audio asynchronous trial — local-only artifact: `../speech-avatar/experiments/2026-10-24-e2-async-single-user/RESULTS.md` now completes12new Serena utterances and12genuine MuseTalk mouth videos:1152frames,40.32s source speech, source-exact PCM masters and closed endings. Two complete12-video browser rounds,7process tests,9real backend checks and13browser checks pass. CPU worker98.474–266.092s (median140.119s), sampled process-groupRSS7.050–7.149GiB; no CUDA. Actual cancellation exits its owned group in0.228s and a99.426s fresh recovery reproduces the original hash. Sync generalization remains unaccepted: only8/20shift controls recover,2short clips are skipped, and human AV is pending. This fixed12-utterance trial remains separate from realtime/upstream integration and existing services.
 
 <!-- /e2-async-trial -->
 
@@ -56,7 +56,7 @@ Public repositories include source, synthetic metadata, aggregate measurements a
 - Make TTS cancellation bounded under a stalled sender, then verify compatibility and replacement/recovery before deployment.
 - Resolve booking startup-word/date clarity against a frozen actual-entry regression before further latency optimization.
 - Freeze tokenizer save/load and mixed-length batch contracts before another ASR training study; inspect reference/acoustic disagreements on train/dev first.
-- Freeze accepted avatar visuals, then validate new-audio single-user async generation/playback, cancellation and fallback; no realtime readiness claim.
+- Review the12new asynchronous avatar clips with a human, resolve new-input synchronization, then measure an independent exclusive-GPU path before live upstream integration.
 - Validate natural microphone input, headphones and loudspeaker echo separately from synthetic trials.
 
 ## Back up while developing in the original folders

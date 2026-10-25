@@ -743,6 +743,13 @@
       "rule": "generic-api-key",
       "context_sha256": "687492342b6df31b9900470cf873518656daa93f9052644e0d9ac0962f0ef51d",
       "reason": "SHA256 of fixed official tokenizer Python source, verified against actual read-only installed file on 2026-10-24; not a credential"
+    },
+    {
+      "repo": "speech-avatar",
+      "path": "experiments/2026-10-25-e5-gpu-comparison/runtime-pin.json",
+      "rule": "generic-api-key",
+      "context_sha256": "687492342b6df31b9900470cf873518656daa93f9052644e0d9ac0962f0ef51d",
+      "reason": "SHA256 of the same fixed official tokenizer Python source, verified against actual read-only installed file on 2026-10-25; not a credential"
     }
   ]
 }
