@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-28",
   "scope": "public source and reviewed metadata; no weights/credentials/raw media",
   "files": [
     {
@@ -9,8 +9,8 @@
     },
     {
       "path": "DUPLEXLAB_ROADMAP.md",
-      "sha256": "6e043833ef0ca2a4e3e5528bb12aee3a5b0aaf51da125c1db062b02eec2f1f69",
-      "bytes": 871
+      "sha256": "dde214e708ac7e4caebfe1807d688bb70a225df91c3d85044d563414bf91f238",
+      "bytes": 1117
     },
     {
       "path": "EVOLUTION.md",
@@ -59,7 +59,7 @@
     },
     {
       "path": "REPOSITORIES.json",
-      "sha256": "6fcc4f58c31a688170f565dca6f8dd79e70b33d0f98e1ce3dde7b1ecee1b9ed8",
+      "sha256": "afac827a40148c59c28bff92057626d97c0a2f82011c5661d31eb8182a9370a4",
       "bytes": 964
     },
     {
